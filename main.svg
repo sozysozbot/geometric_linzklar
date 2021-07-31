@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="720mm" height="400mm" version="1.1" viewBox="-10 -130 900 500" xmlns="http://www.w3.org/2000/svg">
+<svg width="600mm" height="300mm" version="1.1" viewBox="-10 -130 1000 500" xmlns="http://www.w3.org/2000/svg">
     <g id="spaces" stroke-width="0">
         <path fill="#a00" d="m-10 -130h155v630h-155z" />
 
@@ -57,6 +57,20 @@
     </g>
 
     <g id="spaces5" stroke-width="0" fill="#a00" transform="translate(660, 0)">
+        <path fill="#a00" d="m-10 -130h155v630h-155z" />
+
+        <path fill="#ffa" d="m0 -120 h135v120h-135" />
+        <path fill="#faa" d="m0 0 h135v120h-135" />
+        <path fill="#faf" d="m0 120 h135v120h-135" />
+        <path fill="#aaf" d="m0 240 h135v120h-135" />
+
+        <path fill="#aff" d="m10 -110 h115 v 100 h-115 z" />
+        <path fill="#aff" d="m10 10 h115 v 100 h-115 z" />
+        <path fill="#aff" d="m10 130 h115 v 100 h-115 z" />
+        <path fill="#aff" d="m10 250 h115 v 100 h-115 z" />
+    </g>
+
+    <g id="spaces6" stroke-width="0" fill="#a00" transform="translate(825, 0)">
         <path fill="#a00" d="m-10 -130h155v630h-155z" />
 
         <path fill="#ffa" d="m0 -120 h135v120h-135" />
@@ -223,5 +237,36 @@
             <path d="m68 59 l-30 30z" />
         </g>
 
+        <g id="王020" transform="translate(825, -120)">
+            <path d="m27 30h81z" />
+            <path d="m27 60h81z" />
+            <path d="m68 60v-50z" />
+            <path d="m68 60 45 45z" />
+            <path d="m68 60 -45 45z" />
+        </g>
+
+        <g id="付021" transform="translate(825, 0)">
+            <path d="m20 21h95z" />
+            <path d="m52 45 a16 16 0 0 0 32 0 a16 16 0 0 0 -32 0" />
+            <path d="m108 50 0 15a40 20 0 0 1-80 0l0 -15" />
+            <path d="m68 61v49z" />
+        </g>
+
+        <g id="層022" transform="translate(825, 120)">
+            <path d="m20 21h95z" />
+            <path d="m25 61h85z" />
+            <path d="m20 101h95z" />
+        </g>
+
+        <g id="冠005" transform="translate(825, 240)">
+            <path d="m108 38 a40 20 0 0 0 -80 0" />
+            <path d="m48 35v50z" />
+            <path d="m25 55h40z" />
+            <path d="m110 55h-40z" />
+            <path d="m25 85h40z" />
+            <path d="m110 85h-40z" />
+
+            <path d="m88 34v70z" />
+        </g>
     </g>
 </svg>
