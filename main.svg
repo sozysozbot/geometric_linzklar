@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="700mm" height="500mm" version="1.1" viewBox="-10 -130 700 500" xmlns="http://www.w3.org/2000/svg">
+<svg width="720mm" height="400mm" version="1.1" viewBox="-10 -130 900 500" xmlns="http://www.w3.org/2000/svg">
     <g id="spaces" stroke-width="0">
         <path fill="#a00" d="m-10 -130h155v630h-155z" />
 
@@ -42,7 +42,21 @@
         <path fill="#aff" d="m10 250 h115 v 100 h-115 z" />
     </g>
 
-    <g id="spaces3" stroke-width="0" fill="#a00" transform="translate(495, 0)">
+    <g id="spaces4" stroke-width="0" fill="#a00" transform="translate(495, 0)">
+        <path fill="#a00" d="m-10 -130h155v630h-155z" />
+
+        <path fill="#ffa" d="m0 -120 h135v120h-135" />
+        <path fill="#faa" d="m0 0 h135v120h-135" />
+        <path fill="#faf" d="m0 120 h135v120h-135" />
+        <path fill="#aaf" d="m0 240 h135v120h-135" />
+
+        <path fill="#aff" d="m10 -110 h115 v 100 h-115 z" />
+        <path fill="#aff" d="m10 10 h115 v 100 h-115 z" />
+        <path fill="#aff" d="m10 130 h115 v 100 h-115 z" />
+        <path fill="#aff" d="m10 250 h115 v 100 h-115 z" />
+    </g>
+
+    <g id="spaces5" stroke-width="0" fill="#a00" transform="translate(660, 0)">
         <path fill="#a00" d="m-10 -130h155v630h-155z" />
 
         <path fill="#ffa" d="m0 -120 h135v120h-135" />
@@ -67,15 +81,15 @@
             <path d="m47 67v30z" />
             <path d="m9 97h50z" />
             <path d="m82 31-7-21z" />
-            <path d="m88 107h12a19 38 0 000-76h-38" />
+            <path d="m88 107h12a19 38 0 0 0 0-76h-38" />
             <path d="m67 107 32-96z" />
         </g>
         <g id="学001" transform="translate(0, 0)">
-            <path d="m54 88 0-35a20 20 0 00-40 0l0 35" />
+            <path d="m54 88 0-35a20 20 0 0 0 -40 0l0 35" />
             <path d="m34 10v100z" />
             <path d="m59 21h68z" />
             <path d="m59 56h68z" />
-            <path d="m111 110 0-57a20 20 0 00-40 0l0 57" />
+            <path d="m111 110 0-57a20 20 0 0 0 -40 0l0 57" />
         </g>
         <g id="牌002" transform="translate(0, 120)">
             <path d="m61 16-34 17 81 0-34-17" />
@@ -95,18 +109,18 @@
 
         <g id="如004" transform="translate(165, -120)">
             <path d="m44 31-10-20z" />
-            <path d="m56 107h24a35 35 0 000-70h-66" />
+            <path d="m56 107h24a35 35 0 0 0 0-70h-66" />
             <path d="m24 107 48-96z" />
         </g>
 
         <g id="筆005" transform="translate(165, 0)">
-            <path d="m108 88 0-35a40 20 0 00-80 0l0 35" />
+            <path d="m108 88 0-35a40 20 0 0 0 -80 0l0 35" />
             <path d="m68 10v100z" />
         </g>
         <g id="入006" transform="translate(165, 120)">
             <path d="m20 21h95z" />
             <path d="m20 59h95z" />
-            <path d="m33 105 0-37a35 35 90 1135 35" />
+            <path d="m33 105 0-37a35 35 90 1 1 35 35" />
         </g>
 
         <g id="将007" transform="translate(165, 240)">
@@ -114,7 +128,7 @@
             <path d="m67 30v-16z" />
             <path d="m67 30-44 44z" />
             <path d="m67 30 44 44z" />
-            <path d="m47 64 a20 20 0 0040 0l" />
+            <path d="m47 64 a20 20 0 0 0 40 0l" />
             <path d="m67 56v50z" />
         </g>
 
@@ -138,7 +152,7 @@
         <g id="机011" transform="translate(330, 240)">
             <path d="m20 26h95z" />
             <path d="m30 102 25-75z" />
-            <path d="m74 27 0 55a20 20 90 0040 0l0-15" />
+            <path d="m74 27 0 55a20 20 90 0 0 40 0l0-15" />
         </g>
 
         <g id="人012" transform="translate(495, -120)">
@@ -161,11 +175,11 @@
 
         <g id="互014" transform="translate(495, 120)">
             <path d="m71 57 34 -34 -81 0" />
-            <path d="m54 45 34 17"/>
+            <path d="m54 45 34 17" />
             <path d="m61 65-34 34 81 0-20-20" />
         </g>
 
-         <g id="戦013" transform="translate(495, 240)">
+        <g id="戦015" transform="translate(495, 240)">
             <path d="m15 20v 34z" />
             <path d="m15 32h 49z" />
             <path d="m37 52v-36z" />
@@ -177,6 +191,36 @@
             <path d="m80 103 17-51z" />
             <path d="m98 52v-36z" />
             <path d="m116 103-17-51z" />
+        </g>
+
+        <g id="兵016" transform="translate(660, -120)">
+            <path d="m39 20l-17 34 z" />
+            <path d="m27 40h81z" />
+            <path d="m68 52v-36z" />
+            <path d="m39 103 28-56z" />
+            <path d="m97 103-28-56z" />
+        </g>
+
+        <g id="守017" transform="translate(660, 0)">
+            <path d="m18 60a40 20 90 0 0 40 0a40 20 90 0 0-40 0" />
+            <path d="m38 20 v 80" />
+            <path d="m119 32h-54z" />
+            <path d="m74 103l17-51z" />
+            <path d="m92 52v-36z" />
+            <path d="m110 103l-17-51z" />
+        </g>
+
+        <g id="己018" transform="translate(660, 120)">
+            <path d="m61 25l-34 68h81l-20-40" />
+        </g>
+
+        <g id="国019" transform="translate(660, 240)">
+            <path d="m21 60 a46 46 0 0 0 92 0 a46 46 0 0 0 -92 0" />
+            <path d="m41 39h 54z" />
+            <path d="m41 59h 54z" />
+            <path d="m68 59v-36z" />
+            <path d="m68 59 l30 30z" />
+            <path d="m68 59 l-30 30z" />
         </g>
 
     </g>
