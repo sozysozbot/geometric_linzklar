@@ -2,6 +2,8 @@
 
 簡単な幾何学的図形だけで燐字をそこそこきれいに書きたい
 
+![軟学牌言](https://github.com/sozysozbot/geometric_linzklar/blob/master/spoonfed_pekzep.png)
+
 ## 現状
 
  * 縦線
