@@ -347,5 +347,27 @@
             <path d="m68 60 45 45z" />
             <path d="m68 60 -45 45z" />
         </g>
+
+        <g id="天028" transform="translate(165, 360)">
+            <path d="m20 102 25-75h35l0 55a20 20 90 0 0 40 0l0-15" />
+        </g>
+
+        <g id="覆029" transform="translate(165, 480)">
+            <path d="m24 70 44-44 44 44" />
+            <path d="m64 60-17 34 40 0-10-20" />
+        </g>
+
+        <g id="全030" transform="translate(165, 600)">
+            <path d="m21 60 a46 46 0 0 0 92 0 a46 46 0 0 0 -92 0" />
+            <path d="m65 80l17-34-40 0" />
+            <path d="m57 68 20 20" />
+        </g>
+
+        <g id="地031" transform="translate(165, 720)">
+            <path d="m60 86 h 19 a 25 25 90 0 0 0 -50 h -53 l 8 -16" />
+            <path d="m62 36 -27 54z" />
+
+            <path d="m20 101h96z" />
+        </g>
     </g>
 </svg>
