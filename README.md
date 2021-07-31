@@ -4,6 +4,9 @@
 
 ![軟学牌言](https://github.com/sozysozbot/geometric_linzklar/blob/master/spoonfed_pekzep.png)
 
+## サイズ
+各グリフは、(10, 10) から始まる縦100 x 横116の水色枠の中にギリギリ入るか、水色枠にほんの少々めり込むかぐらいでデザインする。中心縦線は `<path d="m68 10v100z" />` である。左右対称な点のx座標を足し算すると 136 になるべきであることに注意。
+
 ## 現状
 
  * 縦線
