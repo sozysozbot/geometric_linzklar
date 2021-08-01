@@ -404,17 +404,17 @@
         </g>
 
         <g id="壊036" transform="translate(495, 360)">
-            <path d="m10 45h50z" />
-            <path d="m20 30 0 37a15 15 0 0 0 30 0l0-37" />
+            <path d="m13 45h50z" />
+            <path d="m23 30 0 37a15 15 0 0 0 30 0l0-37" />
 
-            <path d="m104 40 11 -22 z" />
-            <path d="m84 40 -11 -22 z" />
-            <path d="m67 40h53z" />
-            <path d="m94 40v-30z" />
-            <path d="m94 40-22 44z" />
-            <path d="m94 40 22 44z" />
-            <path d="m84 74h20" />
-            <path d="m94 74v32z" />
+            <path d="m107 40 11 -22 z" />
+            <path d="m87 40 -11 -22 z" />
+            <path d="m70 40h53z" />
+            <path d="m97 40v-30z" />
+            <path d="m97 40-22 44z" />
+            <path d="m97 40 22 44z" />
+            <path d="m87 74h20" />
+            <path d="m97 74v32z" />
         </g>
 
         <g id="卵037" transform="translate(495, 480)">
@@ -429,16 +429,44 @@
         </g>
 
         <g id="蜜039" transform="translate(495, 720)">
-            <path d="m50 20 -30 30"/>
-            <path d="m20 30 30 10"/>
-            <path d="m35 50 v50"/>
-            <path d="m20 70 v25"/>
-            <path d="m50 70 v25"/>
+            <path d="m50 20 -30 30" />
+            <path d="m20 30 30 10" />
+            <path d="m35 50 v50" />
+            <path d="m20 70 v25" />
+            <path d="m50 70 v25" />
             <path d="m60  90 20-60z" />
             <path d="m86  90-15-30z" />
             <path d="m91  90 20-60z" />
             <path d="m117 90-15-30z" />
         </g>
 
+        <g id="悪036" transform="translate(660, 360)">
+            <path d="m88 40 22-22z" />
+            <path d="m48 40-22-22z" />
+            <path d="m14 40h106z" />
+            <path d="m68 40v-30z" />
+            <path d="m68 40-44 44z" />
+            <path d="m68 40 44 44z" />
+            <path d="m48 74h40" />
+            <path d="m68 74v32z" />
+        </g>
+
+        <g id="神037" transform="translate(660, 480)">
+            <path d="m55 92 20 10 25-50-56 0 13-39" />
+        </g>
+
+        <g id="在038" transform="translate(660, 600)">
+            <path d="m50 55-18 -36z" />
+            <path d="m86 55 18 -36z" />
+            <path d="m25 55h86z" />
+            <path d="m20 95h96z" />
+        </g>
+
+        <g id="我039" transform="translate(660, 720)">
+            <path d="m15 40h56z" />
+            <path d="m50 20-28 84z" />
+            <path d="m33 71 78 26z" />
+            <path d="m90 32l-17 34h40l-10-20" />
+        </g>
     </g>
 </svg>
