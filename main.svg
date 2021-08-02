@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="800mm" height="800mm" version="1.1" viewBox="-265 -130 1750 1750" xmlns="http://www.w3.org/2000/svg">
+<svg width="800mm" height="800mm" version="1.1" viewBox="-175 -130 1750 1750" xmlns="http://www.w3.org/2000/svg">
     <g id="spaces0" stroke-width="0" transform="translate(-165, 0)">
         <path fill="#a00" d="m-10 -130h156v1460h-156z" />
 
@@ -62,7 +62,7 @@
     </g>
 
     <g id="spaces2" stroke-width="0" fill="#a00" transform="translate(165, 0)">
-       <path fill="#a00" d="m-10 -130h156v1460h-156z" />
+        <path fill="#a00" d="m-10 -130h156v1460h-156z" />
 
         <path fill="#ffa" d="m0 -120 h136v120h-136" />
         <path fill="#faa" d="m0 0 h136v120h-136" />
@@ -212,7 +212,7 @@
     </g>
 
     <g id="spaces7" stroke-width="0" fill="#a00" transform="translate(990, 0)">
-       <path fill="#a00" d="m-10 -130h156v1460h-156z" />
+        <path fill="#a00" d="m-10 -130h156v1460h-156z" />
 
         <path fill="#ffa" d="m0 -120 h136v120h-136" />
         <path fill="#faa" d="m0 0 h136v120h-136" />
@@ -850,6 +850,33 @@
 
         <g id="少064" transform="translate(1320, 720)">
             <path d="m93 10l -50 100z" />
+        </g>
+
+        <g id="鳥065" transform="translate(-165, -120)">
+            <path d="m107 56 v14a35 35 0 0 1 -70 0v-60" />
+            <path d="m37 56 l60 -30" />
+        </g>
+
+        <g id="高066" transform="translate(-165, 0)">
+            <path d="m68 40v-30z" />
+
+            <path d="m20 40h 96z" />
+            <path d="m25 70h86z" />
+            <path d="m20 100h96z" />
+        </g>
+
+        <g id="魚067" transform="translate(-165, 120)">
+            <path d="m34 25v65 l30 -30" />
+            <path d="m54 35 l60 60" />
+            <path d="m89 70 l20 -40" />
+
+        </g>
+
+        <g id="低068" transform="translate(-165, 240)">
+            <path d="m25 20h86z" />
+            <path d="m31 45h74z" />
+            <path d="m25 70h86z" />
+            <path d="m68 70v 40z" />
         </g>
 
     </g>
