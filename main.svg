@@ -468,5 +468,31 @@
             <path d="m33 71 78 26z" />
             <path d="m90 32l-17 34h40l-10-20" />
         </g>
+
+        <g id="無040" transform="translate(825, 360)">
+            <path d="m53 42l30 30" />
+        </g>
+
+        <g id="水041" transform="translate(825, 480)">
+            <path d="m15  90 30-60z" />
+            <path d="m60  90-30-30z" />
+            <path d="m75  90 30-60z" />
+            <path d="m120 90-30-30z" />
+        </g>
+
+        <g id="与042" transform="translate(825, 600)">
+            <path d="m52 35 a16 16 0 0 0 32 0 a16 16 0 0 0 -32 0" />
+            <path d="m108 40 0 15a40 20 0 0 1-80 0l0 -15" />
+            <path d="m68 51v54z" />
+        </g>
+
+        <g id="墨039" transform="translate(825, 720)">
+            <path d="m54 88 0-35a20 20 0 0 0 -40 0l0 35" />
+            <path d="m34 10v100z" />
+            <path d="m55  100 25-75z" />
+            <path d="m85  100-15-45z" />
+            <path d="m90  100 25-75z" />
+            <path d="m120 100-15-45z" />
+        </g>
     </g>
 </svg>
