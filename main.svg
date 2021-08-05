@@ -1198,7 +1198,7 @@
         </g>
         <g id="島111" transform="translate(0, 1200)">
             <path d="m24 60 44-44 44 44" />
-            <path d="m37 60 60 0" />
+            <path d="m37 58 60 0" />
             <path d="m33  106l20-40" />
             <path d="m63  106l-20-20" />
             <path d="m73  106l20-40" />
@@ -1232,5 +1232,34 @@
             <path d="m38 80h60" />
             <path d="m23 100h90" />
         </g>
-    </g>
+
+        <g id="斧116" transform="translate(330, 840)">
+            <path d="m44 15l10 10" />
+            <path d="m33 34h70" />
+            <path d="m38 60l50-50" />
+            <path d="m52 46v20l28-14" />
+            <path d="m73 45l22 22" />
+            <path d="m18 85h100" />
+            <path d="m38 70 0 20a30 15 0 0 0 60 0l0-20" />
+        </g>
+
+        <g id="倒117" transform="translate(330, 960)">
+            <path d="m50 24v70l-20-10" />
+            <path d="m13 74l60-30" />
+            <path d="m75 90 30-60" />
+            <path d="m120 90-30-30" />
+        </g>
+
+        <g id="刀118" transform="translate(330, 1080)">
+            <path d="m48 30v60" />
+            <path d="m33 95l70-35" />
+            <path d="m86 10v100" />
+        </g>
+
+        <g id="片119" transform="translate(330, 1200)">
+            <path d="m30 36h76" />
+            <path d="m88 50 0 20a20 20 0 0 1-40 0l0 -20" />
+            <path d="m68 36v54" />
+        </g>
+    </g>x
 </svg>
