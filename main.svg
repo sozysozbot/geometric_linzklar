@@ -933,13 +933,13 @@
         </g>
 
         <g id="民082" transform="translate(-165, 1080)">
-            <path d="m28 30h78" />
-            <path d="m28 50h78" />
+            <path d="m28 30h80" />
+            <path d="m28 50h80" />
             <path d="m68 50v-40" />
             <path d="m68 50 45 45" />
             <path d="m68 50-45 45" />
-            <path d="m62 70l16 15" />
-            <path d="m62 90l16 15" />
+            <path d="m62 70l16 16" />
+            <path d="m62 90l16 16" />
         </g>
 
         <g id="迷083" transform="translate(-165, 1200)">
@@ -1079,7 +1079,7 @@
         <g id="啌098" transform="translate(165, 1200)">
             <path d="m18 36h37" />
             <path d="m38 36l-17 51" />
-            <path d="m31 57zh5a15 15 0 1 1 0 30" />
+            <path d="m31 57h5a15 15 0 1 1 0 30" />
 
             <path d="m65 49a25 25 0 1 1 50 0a25 25 0 1 1 -50 0" />
             <path d="m58 95 h 62" />
@@ -1136,6 +1136,38 @@
             <path d="m48 85 a20 20 0 0 0 40 0a20 20 0 0 0 -40 0" />
         </g>
 
+        <g id="笛103" transform="translate(0, 840)">
+            <path d="m15 27h52" />
+            <path d="m43 27l-24 72" />
+            <path d="m33 57h7a21 21 0 1 1 0 42" />
+            <path d="m80 10v100" />
+            <path d="m80 40h30" />
+            <path d="m80 80h30" />
+            <path d="m110 10 v 100" />
+        </g>
+        <g id="琴104" transform="translate(0, 960)">
+            <path d="m14 40h50" />
+            <path d="m27 40v40" />
+            <path d="m52 40v40" />
+            <path d="m14 80h50" />
+            <path d="m70 27h52" />
+            <path d="m98 27l-24 72" />
+            <path d="m88 57h7a21 21 0 1 1 0 42" />
+        </g>
+        <g id="胸105" transform="translate(0, 1080)">
+            <path d="m28 35h80" />
+            <path d="m68 55v-40" />
+            <path d="m68 55 44 44" />
+            <path d="m68 55-44 44" />
+            <path d="m32 45l15 15" />
+            <path d="m104 45l-15 15" />
+        </g>
 
+        <g id="震106" transform="translate(0, 1200)">
+            <path d="m43 60a25 25 0 1 1 50 0a25 25 0 1 1 -50 0" />
+            <path d="m68 110 v -100" />
+            <path d="m22 45 l 10 30 " />
+            <path d="m114 45 l -10 30 " />
+        </g>
     </g>
 </svg>
