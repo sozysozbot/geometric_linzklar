@@ -1204,5 +1204,33 @@
             <path d="m73  106l20-40" />
             <path d="m103 106l-20-20" />
         </g>
+        <g id="川112" transform="translate(165, 840)">
+            <path d="m18 35h100" />
+            <path d="m38 15 0 30a30 15 0 0 0 60 0l0-30" />
+            <path d="m28  106l20-40" />
+            <path d="m58  106l-20-20" />
+            <path d="m78  106l20-40" />
+            <path d="m108 106l-20-20" />
+        </g>
+
+        <g id="定113" transform="translate(165, 960)">
+            <path d="m67 35 0 20a18 18 0 0 1-36 0l0 -20" />
+            <path d="m49 15v90" />
+            <path d="m95 10v100" />
+        </g>
+
+        <g id="船114" transform="translate(165, 1080)">
+            <path d="m18 40h100" />
+            <path d="m38 20 0 30a30 15 0 0 0 60 0l0-30" />
+            <path d="m28  101l15-30" />
+            <path d="m108  101l-15-30" />
+        </g>
+
+        <g id="通115" transform="translate(165, 1200)">
+            <path d="m18 40h100" />
+            <path d="m38 20 0 30a30 15 0 0 0 60 0l0-30" />
+            <path d="m38 80h60" />
+            <path d="m23 100h90" />
+        </g>
     </g>
 </svg>
