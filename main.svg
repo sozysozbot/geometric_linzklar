@@ -1648,5 +1648,34 @@
             <path d="m121 100 -100-50" />
         </g>
 
+        <g id="筒148" transform="translate(-495, 600)">
+            <path d="m48 10v100" />
+            <path d="m48 40h40" />
+            <path d="m48 80h40" />
+            <path d="m88 10 v 100" />
+        </g>
+
+        <g id="近149" transform="translate(-495, 720)">
+            <path d="m13 45h50" />
+            <path d="m23 30 0 37a15 15 0 0 0 30 0l0-37" />
+
+            <path d="m66 40h60" />
+            <path d="m66 80h60" />
+            <path d="m80 10v100" />
+            <path d="m112 10 v 100" />
+        </g>
+
+        <g id="周150" transform="translate(-495, 840)">
+            <path d="m48 10v100" />
+            <path d="m23 40h90" />
+            <path d="m23 80h90" />
+            <path d="m88 10v100" />
+        </g>
+
+        <g id="軸151" transform="translate(-495, 960)">
+            <path d="m38 40h60" />
+            <path d="m33 80h70" />
+            <path d="m68 10v100" />
+        </g>
     </g>
 </svg>
