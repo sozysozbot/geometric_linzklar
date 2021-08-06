@@ -995,7 +995,6 @@
             <path d="m50 20l13 26" />
             <path d="m99 10l -50 100" />
             <path d="m23 60l 92 46" />
-
         </g>
 
         <g id="衣070" transform="translate(660, 1440)">
@@ -1470,6 +1469,35 @@
             <path d="m21 68h94" />
             <path d="m68 36v64" />
             <path d="m36 68a32 32 0 1 1 64 0a32 32 0 1 1 -64 0" />
+        </g>
+
+        <g id="槍128" transform="translate(-165, 1200)">
+            <path d="m33 106v-65" />
+            <path d="m51 23l-36 36" />
+
+            <path d="m65 30v60" />
+            <path d="m50 95l70-35" />
+            <path d="m103 10v100" />
+        </g>
+
+        <g id="刺129" transform="translate(-165, 1320)">
+            <path d="m117 56 v14a35 35 0 0 1 -70 0v-60" />
+            <path d="m17 56 l60 -30" />
+            <path d="m17 86 l60 -30" />
+        </g>
+
+        <g id="肉130" transform="translate(-165, 1440)">
+            <path d="m24 40 44-22 44 22" />
+            <path d="m100 103v-44 a 32 16 0 0 0 -64 0v44 " />
+            <path d="m68 108v-79" />
+            <path d="m100 85h-64" />
+            <path d="m100 65h-64" />
+        </g>
+
+        <g id="傷131" transform="translate(-165, 1560)">
+            <path d="m43 45 l 32 -32" />
+            <path d="m74 33 a 36 72 0 0 1 -36 72" />
+            <path d="m40 66 l 69 35" />
         </g>
     </g>
 </svg>
