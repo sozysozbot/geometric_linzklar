@@ -1750,5 +1750,28 @@
             <path d="m86 103 18-54" />
             <path d="m122 103-18-54" />
         </g>
+
+        <g id="弓156" transform="translate(-660, 0)">
+            <path d="m25 30h81l-35 70" />
+            <path d="m36 100 35-70" />
+            <path d="m25 63h85" />
+            <path d="m20 100h95" />
+        </g>
+
+        <g id="歪157" transform="translate(-660, 120)">
+            <path d="m30 21l51 0-18 36" />
+            <path d="m30 57l51 0-21 42 51 0-10-30" />
+        </g>
+
+        <g id="針158" transform="translate(-660, 240)">
+            <path d="m73 10v90l-40-20" />
+        </g>
+        <g id="躍159" transform="translate(-660, 360)">
+            <path d="m60 15l10 10" />
+            <path d="m90 20 l-45 45" />
+            <path d="m40 30 l54 18" />
+            <path d="m28 83h80" />
+            <path d="m42 70 0 20a26 13 0 0 0 52 0l0-20" />
+        </g>
     </g>
 </svg>
