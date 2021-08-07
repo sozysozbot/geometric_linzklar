@@ -1859,10 +1859,10 @@
             <path d="m68 59 l-30 30" />
         </g>
         <g id="牛166" transform="translate(-660, 1440)">
-            <path d="M20 77l32-64" />
-            <path d="M64 103h13a32 32 0 000-64l-38 0" />
-            <path d="M42 103l32-64" />
-            <path d="M29 59l84 42" />
+            <path d="m20 77l32-64" />
+            <path d="m64 103h13a32 32 0 000-64l-38 0" />
+            <path d="m42 103l32-64" />
+            <path d="m29 59l84 42" />
         </g>
         <g id="骨167" transform="translate(-660, 1560)">
             <path d="m106 102v-53a38 19 0 00-76 0v53" />
@@ -1929,5 +1929,35 @@
             <path d="m89 10v100" />
         </g>
 
+        <g id="草176" transform="translate(-825, 1200)">
+            <path d="m32 32 l 13 39" />
+            <path d="m57 32 l 13 39" />
+            <path d="m107 32 l -19 57" />
+            <path d="m16 89 h 106" />
+        </g>
+        <g id="短177" transform="translate(-825, 1320)">
+            <path d="M22 37h40" />
+            <path d="M22 67h40" />
+            <path d="M42 37v60" />
+            <path d="M116 39h-46" />
+            <path d="M113 62h-40" />
+            <path d="M119 85h-52" />
+            <path d="M93 19v84" />
+        </g>
+        <g id="煙178" transform="translate(-825, 1440)">
+            <path d="m63 30 10 10" />
+            <path d="m93 44 -50 25" />
+            <path d="m43 44 50 25" />
+            <path d="m28 40 0 33a40 20 0 0 0 80 0l0-33" />
+        </g>
+        <g id="長179" transform="translate(-825, 1560)">
+            <path d="M22 44h40" />
+            <path d="M22 90l40-20" />
+            <path d="M42 20v60" />
+            <path d="M116 39h-46" />
+            <path d="M113 62h-40" />
+            <path d="M119 85h-52" />
+            <path d="M93 19v84" />
+        </g>
     </g>
 </svg>
