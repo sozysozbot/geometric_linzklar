@@ -2056,7 +2056,28 @@
             <path d="m83 79l10-20" />
         </g>
 
+        <g id="巻188" transform="translate(-990, 1200)">
+            <path d="m21 60 a46 46 0 0 0 92 0 a46 46 0 0 0 -92 0" />
+            <path d="m37 40 41 0a15 15 0 0 1 0 30l-14 0" />
+            <path d="m64 40 0 55" />
+        </g>
 
+        <g id="網189" transform="translate(-990, 1320)">
+            <path d="m23 40h90" />
+            <path d="m23 80h90" />
+            <path d="m44 20v80" />
+            <path d="m68 25v70" />
+            <path d="m94 10v100" />
+        </g>
 
+        <g id="閉190" transform="translate(-990, 1440)">
+            <path d="m14 85 54-54 54 54" />
+        </g>
+
+        <g id="虫191" transform="translate(-990, 1560)">
+            <path d="m108 103v-13 a40 20 0 0 0 -80 0v13" />
+            <path d="m108 17v13 a40 20 0 0 1 -80 0v-13" />
+            <path d="m68 10v100" />
+        </g>
     </g>
 </svg>
