@@ -1905,5 +1905,29 @@
             <path d="m99 57v-16" />
             <path d="m117 108-17-51" />
         </g>
+
+        <g id="三172" transform="translate(-825, 600)">
+            <path d="m44 20v80" />
+            <path d="m68 25v70" />
+            <path d="m94 10v100" />
+        </g>
+
+        <g id="加173" transform="translate(-825, 720)">
+            <path d="m53 20 a 38 76 0 0 1-38 76" />
+            <path d="m23 50h90" />
+            <path d="m83 20 a 38 76 0 0 0 38 76" />
+        </g>
+
+        <g id="五174" transform="translate(-825, 840)">
+            <path d="m26 60h85" />
+        </g>
+
+        <g id="八175" transform="translate(-825, 960)">
+            <path d="m26 60h85" />
+            <path d="m47 20v80" />
+            <path d="m68 25v70" />
+            <path d="m89 10v100" />
+        </g>
+
     </g>
 </svg>
