@@ -1805,5 +1805,33 @@
             <path d="m68 75v24" />
             <path d="m103 99h-69" />
         </g>
+
+        <g id="鶏164" transform="translate(-660, 1200)">
+            <path d="m90 10 l-50 50" />
+            <path d="m40 20 l60 20" />
+            <path d="m106 74v8a21 21 0 0 1-42 0v-36" />
+            <path d="m35 80l60-20" />
+        </g>
+        <g id="蛋165" transform="translate(-660, 1320)">
+            <path d="m21 60 a46 46 0 0 0 92 0 a46 46 0 0 0 -92 0" />
+            <path d="m55 59l -12 -24" />
+            <path d="m81 59l 12 -24" />
+            <path d="m36 59h 64" />
+            <path d="m68 59v-36" />
+            <path d="m68 59 l30 30" />
+            <path d="m68 59 l-30 30" />
+        </g>
+        <g id="牛166" transform="translate(-660, 1440)">
+            <path d="M20 77l32-64" />
+            <path d="M64 103h13a32 32 0 000-64l-38 0" />
+            <path d="M42 103l32-64" />
+            <path d="M29 59l84 42" />
+        </g>
+        <g id="骨167" transform="translate(-660, 1560)">
+            <path d="m106 102v-53a38 19 0 00-76 0v53" />
+            <path d="m68 108v-95" />
+            <path d="m106 80h-77" />
+            <path d="m106 56h-77" />
+        </g>
     </g>
 </svg>
