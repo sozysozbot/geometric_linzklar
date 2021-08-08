@@ -20,17 +20,20 @@ files.forEach(function (file, _index) {
 
 const s = JSON.parse(fs.readFileSync(`renderer_settings.json`, 'utf-8'));
 
-const text_rows = text.split("\n");
+const glyphs_to_render = text.split("\n");
 const num_of_glyphs_each_row_can_contain = [...s.column_format].filter(c => c == "*").length;
 if (num_of_glyphs_each_row_can_contain === 0) {
     console.error(`column_format must contain at least one asterisk`)
 }
-const column_num = Math.ceil(text_rows.length / num_of_glyphs_each_row_can_contain);
+const column_num = Math.ceil(glyphs_to_render.length / num_of_glyphs_each_row_can_contain);
 
+// border_colors に載っている枠線色の個数は、column_format の文字数と一致している必要があり、
 if (s.border_colors.length !== [...s.column_format].length) {
     console.warn(`LENGTH MISMATCH: In the setting, border_colors has length ${s.border_colors.length} but column_format has length ${[...s.column_format].length}`)
 }
+// 一致していることを確認してからそれを row_num と名付ける。
 const row_num = s.border_colors.length;
+
 const image_full_height = 10 + row_num * 120 + 10;
 
 const single_column = `        <${"path"} fill="#a00" d="m-10 -10h156v${image_full_height}h-156z" />\n` +
@@ -53,7 +56,7 @@ fs.writeFileSync(out_file_name,
 ${columns}
 
     <g id="glyphs" stroke="#000" stroke-width="10" fill="none">
-${text_rows.map((row, ind) => {
+${glyphs_to_render.map((row, ind) => {
         if (row.trim() === "") { return ""; }
         const [initial] = [...row];
         const rem = ind % num_of_glyphs_each_row_can_contain; // determines the y coordinate

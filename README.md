@@ -18,7 +18,7 @@
 * `viewBox_min_y`: viewBox の y がどこから始まるかを指定。
 * `column_format`: `" **** **** **** "` のように書いて、どこにスペースを入れるかを指定。
 * `outermost_border_color`: 各カラムの一番外の枠の色。
-* `border_colors`: カラムの各セルの枠の色。ここだけはカラフルにできるので配列で指定。
+* `border_colors`: カラムの各セルの枠の色。ここだけはカラフルにできるので配列で指定。配列の長さは、column_format の文字数と一致している必要がある。
 * `cell_inner_color`: 各セル内部の背景色。
 * `column_spacing`: カラム間の間隔。
 
