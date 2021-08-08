@@ -61,9 +61,14 @@ ${text_rows.map((row, ind) => {
 
         // column${column_num - 1 - index} corresponds to translate(${s.viewBox_min_x + 10 + (156 + s.column_spacing) * index}
         // column${quot} corresponds to translate(${s.viewBox_min_x + 10 + (156 + s.column_spacing) * (column_num - quot - 1), ...}
-        const transform_x = s.viewBox_min_x + 10 + (156 + s.column_spacing) * (column_num - quot - 1);
+        const translate_x = s.viewBox_min_x + 10 + (156 + s.column_spacing) * (column_num - quot - 1);
 
-        return `        <g id="${row}${(1000 + ind).toString(10).slice(1)}" transform="translate(${transform_x}, 120)">${glyph_map.get(initial)}</g>`
+        // a clever technique from https://stackoverflow.com/questions/14480345/how-to-get-the-nth-occurrence-in-a-string
+        // in which the fact that `String.prototype.split` has a second argument `.split(separator, limit)` is vrey cleverly used.
+        const vertical_pos = s.column_format.split("*", rem + 1).join("*").length;
+        const translate_y = s.viewBox_min_y + 10 + 120 * vertical_pos;
+
+        return `        <g id="${row}${(1000 + ind).toString(10).slice(1)}" transform="translate(${translate_x}, ${translate_y})">${glyph_map.get(initial)}</g>`
     }).join("\n")
     }</g>
 </svg>`);
