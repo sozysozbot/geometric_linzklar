@@ -1675,7 +1675,7 @@
         <g id="日133" transform="translate(-391, 720)">
             <path d="m21 60 a46 46 0 0 0 92 0 a46 46 0 0 0 -92 0" />
             <path d="m21 60h92" />
-            <path d="m68 10v100" />
+            <path d="m68 10v92" />
         </g>
 
         <g id="唯134" transform="translate(-391, 840)">
@@ -2185,6 +2185,34 @@
             <path d="m52 17l-30 60" />
             <path d="m42 37h45l-35 70" />
             <path d="m32 57l 80 40 " />
+        </g>
 
+        <g id="月200" transform="translate(-1155, 1200)">
+            <path d="m36 30h66l-30 60" />
+            <path d="m36 90 30-60" />
+            <path d="m20 90h95" />
+        </g>
+
+        <g id="輝201" transform="translate(-1155, 1320)">
+            <path d="M40 41a28 28 0 0 0 56 0a28 28 0 0 0 -56 0" />
+            <path d="M40 41h56" />
+            <path d="M68 13v90l-18-6" />
+            <path d="M50 89l-15-15" />
+            <path d="M83 89l15-15" />
+        </g>
+
+        <g id="育202" transform="translate(-1155, 1440)">
+            <path d="m13 45h50" />
+            <path d="m23 30 0 37a15 15 0 0 0 30 0l0-37" />
+
+            <path d="m68 49h50" />
+            <path d="m63 89h60" />
+            <path d="m93 19v70" />
+        </g>
+
+        <g id="凹203" transform="translate(-1155, 1560)">
+            <path d="m37 32 l 13 39" />
+            <path d="m102 32 l -19 57" />
+            <path d="m16 89 h 106" />
         </g>
 </svg>
