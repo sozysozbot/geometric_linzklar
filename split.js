@@ -39,8 +39,8 @@ glyph_map.forEach((value, key) => {
 <svg width="136mm" height="120mm" version="1.1" viewBox="0 0 136 120" xmlns="http://www.w3.org/2000/svg">
     <path fill="#faa" d="m0 0 h136v120h-136" />
     <path fill="#aff" d="m10 10 h116 v 100 h-116 z" />
-    <g>
-        <g stroke="#000" stroke-width="10" fill="none">${value}</g>
+    <g stroke="#000" stroke-width="10" fill="none">
+        <g id="glyph">${value}</g>
     </g>
 </svg>`);
 });
