@@ -68,7 +68,7 @@ ${text_rows.map((row, ind) => {
         const vertical_pos = s.column_format.split("*", rem + 1).join("*").length;
         const translate_y = s.viewBox_min_y + 10 + 120 * vertical_pos;
 
-        return `        <g id="${row}${(1000 + ind).toString(10).slice(1)}" transform="translate(${translate_x}, ${translate_y})">${glyph_map.get(initial)}</g>`
+        return `        <g id="${row}${(1000 + ind).toString(10).slice(1)}" transform="translate(${translate_x}, ${translate_y})">${glyph_map.get(initial)}</g>\n`
     }).join("\n")
     }</g>
 </svg>`);
