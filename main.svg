@@ -2336,8 +2336,10 @@
         </g>
 
         <g id="聯214" transform="translate(-1346, 840)">
-            <path d="M64 25l27 0a25 25 0 010 50l-7 0" />
-            <path d="M84 25l0 85" />
+            <path d="m10 25l27 0a25 25 0 010 50l-7 0" />
+            <path d="m30 25l0 85" />
+            <path d="m62 20h48l-14 42" />
+            <path d="m99 106a22 22 0 000-44l-28 0l14-42" />
         </g>
 
         <g id="足215" transform="translate(-1346, 960)">
