@@ -31,8 +31,9 @@ if (s.border_colors.length !== [...s.column_format].length) {
     console.warn(`LENGTH MISMATCH: In the setting, border_colors has length ${s.border_colors.length} but column_format has length ${[...s.column_format].length}`)
 }
 const row_num = s.border_colors.length;
+const image_full_height = 10 + row_num * 120 + 10;
 
-const single_column = `        <${"path"} fill="#a00" d="m-10 ${s.viewBox_min_y}h156v1940h-156z" />\n` +
+const single_column = `        <${"path"} fill="#a00" d="m-10 ${s.viewBox_min_y}h156v${image_full_height}h-156z" />\n` +
     s.border_colors.map((color, ind) => `        <${"path"} fill="${color}" d="m0 ${s.viewBox_min_y + 10 + 120 * ind}h136v120h-136" />`).join("\n") + "\n\n" +
     Array.from({ length: row_num }, (_, ind) => `        <${"path"} fill="${s.cell_color}" d="m10 ${s.viewBox_min_y + 20 + 120 * ind}h116v100h-116" />`).join("\n");
 
@@ -45,7 +46,6 @@ ${single_column}
 
 const image_full_width = column_num * (156 + s.column_spacing) - s.column_spacing;
 
-const image_full_height = 10 + row_num * 120 + 10;
 
 fs.writeFileSync(out_file_name,
     `<?xml version="1.0" encoding="UTF-8"?>
@@ -56,7 +56,6 @@ ${columns}
 ${text_rows.map((row, ind) => {
         if (row.trim() === "") { return ""; }
         const [initial] = [...row];
-        console.log(initial);
         const rem = ind % num_of_glyphs_each_row_can_contain; // determines the y coordinate
         const quot = Math.floor(ind / num_of_glyphs_each_row_can_contain); // determines the x coordinate
 
