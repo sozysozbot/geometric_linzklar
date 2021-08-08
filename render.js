@@ -56,8 +56,7 @@ fs.writeFileSync(out_file_name,
 ${columns}
 
     <g id="glyphs" stroke="#000" stroke-width="10" fill="none">
-${glyphs_to_render.map((row, ind) => {
-        if (row.trim() === "") { return ""; }
+${glyphs_to_render.filter(row => row.trim() !== "").map((row, ind) => {
         const [initial] = [...row];
         const rem = ind % num_of_glyphs_each_row_can_contain; // determines the y coordinate
         const quot = Math.floor(ind / num_of_glyphs_each_row_can_contain); // determines the x coordinate
