@@ -41,5 +41,7 @@
 
 だけを使用（のはず）
 
-
-
+## お世話になったツール一覧
+* Visual Studio Code
+* [jock.svg Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=jock.svg)
+* [SVGPathEditor](https://yqnn.github.io/svg-path-editor/)
