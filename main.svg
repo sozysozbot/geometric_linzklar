@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="2448px" height="2540px" version="1.1" viewBox="-1165 -130 2448 2540" xmlns="http://www.w3.org/2000/svg">
     <g id="column12" stroke-width="0" transform="translate(-1155, -120)">
-        <path fill="#a00" d="m-10 -10h156v2540h-156z" />
+        <path fill="#a00" d="m-10 -10h156v2540h-156" />
         <path fill="#fff" d="m0 0h136v120h-136" />
         <path fill="#ffa" d="m0 120h136v120h-136" />
         <path fill="#faa" d="m0 240h136v120h-136" />
@@ -47,7 +47,7 @@
         <path fill="#aff" d="m10 2410h116v100h-116" />
     </g>
     <g id="column11" stroke-width="0" transform="translate(-964, -120)">
-        <path fill="#a00" d="m-10 -10h156v2540h-156z" />
+        <path fill="#a00" d="m-10 -10h156v2540h-156" />
         <path fill="#fff" d="m0 0h136v120h-136" />
         <path fill="#ffa" d="m0 120h136v120h-136" />
         <path fill="#faa" d="m0 240h136v120h-136" />
@@ -93,7 +93,7 @@
         <path fill="#aff" d="m10 2410h116v100h-116" />
     </g>
     <g id="column10" stroke-width="0" transform="translate(-773, -120)">
-        <path fill="#a00" d="m-10 -10h156v2540h-156z" />
+        <path fill="#a00" d="m-10 -10h156v2540h-156" />
         <path fill="#fff" d="m0 0h136v120h-136" />
         <path fill="#ffa" d="m0 120h136v120h-136" />
         <path fill="#faa" d="m0 240h136v120h-136" />
@@ -139,7 +139,7 @@
         <path fill="#aff" d="m10 2410h116v100h-116" />
     </g>
     <g id="column9" stroke-width="0" transform="translate(-582, -120)">
-        <path fill="#a00" d="m-10 -10h156v2540h-156z" />
+        <path fill="#a00" d="m-10 -10h156v2540h-156" />
         <path fill="#fff" d="m0 0h136v120h-136" />
         <path fill="#ffa" d="m0 120h136v120h-136" />
         <path fill="#faa" d="m0 240h136v120h-136" />
@@ -185,7 +185,7 @@
         <path fill="#aff" d="m10 2410h116v100h-116" />
     </g>
     <g id="column8" stroke-width="0" transform="translate(-391, -120)">
-        <path fill="#a00" d="m-10 -10h156v2540h-156z" />
+        <path fill="#a00" d="m-10 -10h156v2540h-156" />
         <path fill="#fff" d="m0 0h136v120h-136" />
         <path fill="#ffa" d="m0 120h136v120h-136" />
         <path fill="#faa" d="m0 240h136v120h-136" />
@@ -231,7 +231,7 @@
         <path fill="#aff" d="m10 2410h116v100h-116" />
     </g>
     <g id="column7" stroke-width="0" transform="translate(-200, -120)">
-        <path fill="#a00" d="m-10 -10h156v2540h-156z" />
+        <path fill="#a00" d="m-10 -10h156v2540h-156" />
         <path fill="#fff" d="m0 0h136v120h-136" />
         <path fill="#ffa" d="m0 120h136v120h-136" />
         <path fill="#faa" d="m0 240h136v120h-136" />
@@ -277,7 +277,7 @@
         <path fill="#aff" d="m10 2410h116v100h-116" />
     </g>
     <g id="column6" stroke-width="0" transform="translate(-9, -120)">
-        <path fill="#a00" d="m-10 -10h156v2540h-156z" />
+        <path fill="#a00" d="m-10 -10h156v2540h-156" />
         <path fill="#fff" d="m0 0h136v120h-136" />
         <path fill="#ffa" d="m0 120h136v120h-136" />
         <path fill="#faa" d="m0 240h136v120h-136" />
@@ -323,7 +323,7 @@
         <path fill="#aff" d="m10 2410h116v100h-116" />
     </g>
     <g id="column5" stroke-width="0" transform="translate(182, -120)">
-        <path fill="#a00" d="m-10 -10h156v2540h-156z" />
+        <path fill="#a00" d="m-10 -10h156v2540h-156" />
         <path fill="#fff" d="m0 0h136v120h-136" />
         <path fill="#ffa" d="m0 120h136v120h-136" />
         <path fill="#faa" d="m0 240h136v120h-136" />
@@ -369,7 +369,7 @@
         <path fill="#aff" d="m10 2410h116v100h-116" />
     </g>
     <g id="column4" stroke-width="0" transform="translate(373, -120)">
-        <path fill="#a00" d="m-10 -10h156v2540h-156z" />
+        <path fill="#a00" d="m-10 -10h156v2540h-156" />
         <path fill="#fff" d="m0 0h136v120h-136" />
         <path fill="#ffa" d="m0 120h136v120h-136" />
         <path fill="#faa" d="m0 240h136v120h-136" />
@@ -415,7 +415,7 @@
         <path fill="#aff" d="m10 2410h116v100h-116" />
     </g>
     <g id="column3" stroke-width="0" transform="translate(564, -120)">
-        <path fill="#a00" d="m-10 -10h156v2540h-156z" />
+        <path fill="#a00" d="m-10 -10h156v2540h-156" />
         <path fill="#fff" d="m0 0h136v120h-136" />
         <path fill="#ffa" d="m0 120h136v120h-136" />
         <path fill="#faa" d="m0 240h136v120h-136" />
@@ -461,7 +461,7 @@
         <path fill="#aff" d="m10 2410h116v100h-116" />
     </g>
     <g id="column2" stroke-width="0" transform="translate(755, -120)">
-        <path fill="#a00" d="m-10 -10h156v2540h-156z" />
+        <path fill="#a00" d="m-10 -10h156v2540h-156" />
         <path fill="#fff" d="m0 0h136v120h-136" />
         <path fill="#ffa" d="m0 120h136v120h-136" />
         <path fill="#faa" d="m0 240h136v120h-136" />
@@ -507,7 +507,7 @@
         <path fill="#aff" d="m10 2410h116v100h-116" />
     </g>
     <g id="column1" stroke-width="0" transform="translate(946, -120)">
-        <path fill="#a00" d="m-10 -10h156v2540h-156z" />
+        <path fill="#a00" d="m-10 -10h156v2540h-156" />
         <path fill="#fff" d="m0 0h136v120h-136" />
         <path fill="#ffa" d="m0 120h136v120h-136" />
         <path fill="#faa" d="m0 240h136v120h-136" />
@@ -553,7 +553,7 @@
         <path fill="#aff" d="m10 2410h116v100h-116" />
     </g>
     <g id="column0" stroke-width="0" transform="translate(1137, -120)">
-        <path fill="#a00" d="m-10 -10h156v2540h-156z" />
+        <path fill="#a00" d="m-10 -10h156v2540h-156" />
         <path fill="#fff" d="m0 0h136v120h-136" />
         <path fill="#ffa" d="m0 120h136v120h-136" />
         <path fill="#faa" d="m0 240h136v120h-136" />
