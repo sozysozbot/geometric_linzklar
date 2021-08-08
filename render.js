@@ -1,5 +1,5 @@
 const in_path = process.argv[2] ?? "char_glyphs"
-const out_file_name = process.argv[3] ?? "main (2).svg"
+const out_file_name = process.argv[3] ?? "main.svg"
 const fs = require('fs');
 const text = fs.readFileSync(`${in_path}/content.txt`, 'utf-8');
 const jsdom = require("jsdom");
@@ -54,8 +54,9 @@ ${columns}
 
     <g id="glyphs" stroke="#000" stroke-width="10" fill="none">
 ${text_rows.map((row, ind) => {
+        if (row.trim() === "") { return ""; }
         const [initial] = [...row];
-        console.log(initial, glyph_map.get(initial));
+        console.log(initial);
         const rem = ind % num_of_glyphs_each_row_can_contain; // determines the y coordinate
         const quot = Math.floor(ind / num_of_glyphs_each_row_can_contain); // determines the x coordinate
 
@@ -70,6 +71,6 @@ ${text_rows.map((row, ind) => {
 
         return `        <g id="${row}${(1000 + ind).toString(10).slice(1)}" transform="translate(${translate_x}, ${translate_y})">${glyph_map.get(initial)}</g>\n`
     }).join("\n")
-    }</g>
+    }    </g>
 </svg>`);
 
