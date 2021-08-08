@@ -18,19 +18,19 @@ for (let glyph of glyphs) {
     console.log(char, num);
 
     if (num !== previous_num + 1) {
-        console.log(`INCORRECT NUMBERING: ${previous_num} is followed by ${num}`);
+        console.warn(`INCORRECT NUMBERING: ${previous_num} is followed by ${num}`);
     }
     previous_num = num;
 
     const keys = char.split('/');
     for (let key of keys) {
         if (glyph_map.has(key)) {
-            console.log(`DUPLICATE KEY: ${key}`)
+            console.warn(`DUPLICATE KEY: ${key}`)
         }
         glyph_map.set(key, glyph.innerHTML)
     }
 
-    text_content += char + "\t";
+    text_content += char + "\n";
 }
 
 fs.writeFileSync(`${out_path}/content.txt`, text_content);
@@ -44,3 +44,4 @@ glyph_map.forEach((value, key) => {
     </g>
 </svg>`);
 });
+console.log(`Wrote ${glyph_map.size} glyphs and \`content.txt\` under \`${out_path}/\`. Note that the number of the glyphs can be greater than the number of rows in \`content.txt\` because of cases like 石/岩 where the glyphs are shared.`);
