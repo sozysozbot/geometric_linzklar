@@ -1,7 +1,7 @@
 const file_name = process.argv[2] ?? "main.svg"
 const out_path = process.argv[3] ?? "char_glyphs"
 const fs = require('fs');
-let text = fs.readFileSync(file_name, 'utf-8');
+const text = fs.readFileSync(file_name, 'utf-8');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const dom = new JSDOM(text);
