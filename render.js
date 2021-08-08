@@ -1,5 +1,5 @@
 const in_path = process.argv[2] ?? "char_glyphs"
-const out_file_name = process.argv[3] ?? "main (2).svg"
+const out_file_name = process.argv[3] ?? "main.svg"
 const fs = require('fs');
 const text = fs.readFileSync(`${in_path}/content.txt`, 'utf-8');
 const jsdom = require("jsdom");
@@ -54,17 +54,23 @@ ${columns}
 
     <g id="glyphs" stroke="#000" stroke-width="10" fill="none">
 ${text_rows.map((row, ind) => {
+        if (row.trim() === "") { return ""; }
         const [initial] = [...row];
-        console.log(initial, glyph_map.get(initial));
+        console.log(initial);
         const rem = ind % num_of_glyphs_each_row_can_contain; // determines the y coordinate
         const quot = Math.floor(ind / num_of_glyphs_each_row_can_contain); // determines the x coordinate
 
         // column${column_num - 1 - index} corresponds to translate(${s.viewBox_min_x + 10 + (156 + s.column_spacing) * index}
         // column${quot} corresponds to translate(${s.viewBox_min_x + 10 + (156 + s.column_spacing) * (column_num - quot - 1), ...}
-        const transform_x = s.viewBox_min_x + 10 + (156 + s.column_spacing) * (column_num - quot - 1);
+        const translate_x = s.viewBox_min_x + 10 + (156 + s.column_spacing) * (column_num - quot - 1);
 
-        return `        <g id="${row}${(1000 + ind).toString(10).slice(1)}" transform="translate(${transform_x}, 120)">${glyph_map.get(initial)}</g>`
+        // a clever technique from https://stackoverflow.com/questions/14480345/how-to-get-the-nth-occurrence-in-a-string
+        // in which the fact that `String.prototype.split` has a second argument `.split(separator, limit)` is vrey cleverly used.
+        const vertical_pos = s.column_format.split("*", rem + 1).join("*").length;
+        const translate_y = s.viewBox_min_y + 10 + 120 * vertical_pos;
+
+        return `        <g id="${row}${(1000 + ind).toString(10).slice(1)}" transform="translate(${translate_x}, ${translate_y})">${glyph_map.get(initial)}</g>\n`
     }).join("\n")
-    }</g>
+    }    </g>
 </svg>`);
 
