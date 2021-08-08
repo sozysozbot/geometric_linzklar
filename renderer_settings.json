@@ -1,0 +1,26 @@
+{
+    "viewBox_min_x": -1165,
+    "viewBox_min_y": -130,
+    "column_format": " **** **** **** ",
+    "outermost_border_color": "#a00",
+    "border_colors": [
+        "#fff",
+        "#ffa",
+        "#faa",
+        "#faf",
+        "#aaf",
+        "#fff",
+        "#ffa",
+        "#faa",
+        "#faf",
+        "#aaf",
+        "#fff",
+        "#ffa",
+        "#faa",
+        "#faf",
+        "#aaf",
+        "#fff"
+    ],
+    "cell_color": "#aff",
+    "column_spacing": 9
+}
