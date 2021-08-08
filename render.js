@@ -20,7 +20,7 @@ files.forEach(function (file, _index) {
 
 const s = JSON.parse(fs.readFileSync(`renderer_settings.json`, 'utf-8'));
 
-const glyphs_to_render = text.split("\n");
+const glyphs_to_render = text.split("\n").map(row => row.trim()).filter(row => row !== "");
 const num_of_glyphs_each_row_can_contain = [...s.column_format].filter(c => c == "*").length;
 if (num_of_glyphs_each_row_can_contain === 0) {
     console.error(`column_format must contain at least one asterisk`)
@@ -47,7 +47,7 @@ ${single_column_svg}
     </g>`
 ).join("\n");
 
-const glyphs_svg = glyphs_to_render.filter(row => row.trim() !== "").map((row, ind) => {
+const glyphs_svg = glyphs_to_render.map((row, ind) => {
     const [initial] = [...row];
     const rem = ind % num_of_glyphs_each_row_can_contain; // determines the y coordinate
     const quot = Math.floor(ind / num_of_glyphs_each_row_can_contain); // determines the x coordinate
