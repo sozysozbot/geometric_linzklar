@@ -26,6 +26,6 @@
         "#aaf",
         "#fff"
     ],
-    "cell_color": "#aff",
+    "cell_inner_color": "#aff",
     "column_spacing": 35
 }

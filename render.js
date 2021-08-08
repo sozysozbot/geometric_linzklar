@@ -33,13 +33,13 @@ if (s.border_colors.length !== [...s.column_format].length) {
 const row_num = s.border_colors.length;
 const image_full_height = 10 + row_num * 120 + 10;
 
-const single_column = `        <${"path"} fill="#a00" d="m-10 ${s.viewBox_min_y}h156v${image_full_height}h-156z" />\n` +
-    s.border_colors.map((color, ind) => `        <${"path"} fill="${color}" d="m0 ${s.viewBox_min_y + 10 + 120 * ind}h136v120h-136" />`).join("\n") + "\n\n" +
-    Array.from({ length: row_num }, (_, ind) => `        <${"path"} fill="${s.cell_color}" d="m10 ${s.viewBox_min_y + 20 + 120 * ind}h116v100h-116" />`).join("\n");
+const single_column = `        <${"path"} fill="#a00" d="m-10 -10h156v${image_full_height}h-156z" />\n` +
+    s.border_colors.map((color, ind) => `        <${"path"} fill="${color}" d="m0 ${120 * ind}h136v120h-136" />`).join("\n") + "\n\n" +
+    Array.from({ length: row_num }, (_, ind) => `        <${"path"} fill="${s.cell_inner_color}" d="m10 ${10 + 120 * ind}h116v100h-116" />`).join("\n");
 
 const columns = Array.from(
     { length: column_num },
-    (_, index) => `    <g id="column${column_num - 1 - index}" stroke-width="0" transform="translate(${s.viewBox_min_x + 10 + (156 + s.column_spacing) * index}, 0)">
+    (_, index) => `    <g id="column${column_num - 1 - index}" stroke-width="0" transform="translate(${s.viewBox_min_x + 10 + (156 + s.column_spacing) * index}, ${s.viewBox_min_y + 10})">
 ${single_column}
     </g>`
 ).join("\n");
