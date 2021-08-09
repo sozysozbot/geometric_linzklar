@@ -8,16 +8,16 @@
             <path d="m35 59v-36"></path>
             <path d="m35 59 -14 42"></path>
             <path d="m35 59  14 42"></path>
-            <path d="M88 43v-20"></path>
-            <path d="M63 43l49 0"></path>
-            <path d="M53  67h32"></path>
-            <path d="M69  67v-16"></path>
-            <path d="M69  67l-10 30"></path>
-            <path d="M69  67l 10 30"></path>
-            <path d="M123 67h-32"></path>
-            <path d="M107 67l-10 30"></path>
-            <path d="M107 67l10 30"></path>
-            <path d="M107 67v-16"></path>
+            <path d="m88 43v-20"></path>
+            <path d="m63 43l49 0"></path>
+            <path d="m53  67h32"></path>
+            <path d="m69  67v-16"></path>
+            <path d="m69  67l-10 30"></path>
+            <path d="m69  67l 10 30"></path>
+            <path d="m123 67h-32"></path>
+            <path d="m107 67l-10 30"></path>
+            <path d="m107 67l10 30"></path>
+            <path d="m107 67v-16"></path>
         </g>
     </g>
 </svg>

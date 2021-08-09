@@ -27,7 +27,9 @@ for (let glyph of glyphs) {
         if (glyph_map.has(key)) {
             console.warn(`DUPLICATE KEY: ${key}`)
         }
-        glyph_map.set(key, glyph.innerHTML)
+
+        // kick in the conversion to the relative coordinate here
+        glyph_map.set(key, glyph.innerHTML.replace(/d="M/g, 'd="m')); 
     }
 
     text_content += char + "\n";
