@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="3212px" height="2540px" version="1.1" viewBox="-1929 -130 3212 2540" xmlns="http://www.w3.org/2000/svg">
+<svg width="3403px" height="2540px" version="1.1" viewBox="-2120 -130 3403 2540" xmlns="http://www.w3.org/2000/svg">
+    <g id="column17" stroke-width="0" transform="translate(-2110, -120)">
+        <path fill="#a00" d="m-10 -10h156v2540h-156" />
+        <path fill="#fff" d="m0 0h136v120h-136" />
+        <path fill="#ffa" d="m0 120h136v120h-136" />
+        <path fill="#faa" d="m0 240h136v120h-136" />
+        <path fill="#faf" d="m0 360h136v120h-136" />
+        <path fill="#aaf" d="m0 480h136v120h-136" />
+        <path fill="#fff" d="m0 600h136v120h-136" />
+        <path fill="#ffa" d="m0 720h136v120h-136" />
+        <path fill="#faa" d="m0 840h136v120h-136" />
+        <path fill="#faf" d="m0 960h136v120h-136" />
+        <path fill="#aaf" d="m0 1080h136v120h-136" />
+        <path fill="#fff" d="m0 1200h136v120h-136" />
+        <path fill="#ffa" d="m0 1320h136v120h-136" />
+        <path fill="#faa" d="m0 1440h136v120h-136" />
+        <path fill="#faf" d="m0 1560h136v120h-136" />
+        <path fill="#aaf" d="m0 1680h136v120h-136" />
+        <path fill="#fff" d="m0 1800h136v120h-136" />
+        <path fill="#ffa" d="m0 1920h136v120h-136" />
+        <path fill="#faa" d="m0 2040h136v120h-136" />
+        <path fill="#faf" d="m0 2160h136v120h-136" />
+        <path fill="#aaf" d="m0 2280h136v120h-136" />
+        <path fill="#fff" d="m0 2400h136v120h-136" />
+
+        <path fill="#aff" d="m10 10h116v100h-116" />
+        <path fill="#aff" d="m10 130h116v100h-116" />
+        <path fill="#aff" d="m10 250h116v100h-116" />
+        <path fill="#aff" d="m10 370h116v100h-116" />
+        <path fill="#aff" d="m10 490h116v100h-116" />
+        <path fill="#aff" d="m10 610h116v100h-116" />
+        <path fill="#aff" d="m10 730h116v100h-116" />
+        <path fill="#aff" d="m10 850h116v100h-116" />
+        <path fill="#aff" d="m10 970h116v100h-116" />
+        <path fill="#aff" d="m10 1090h116v100h-116" />
+        <path fill="#aff" d="m10 1210h116v100h-116" />
+        <path fill="#aff" d="m10 1330h116v100h-116" />
+        <path fill="#aff" d="m10 1450h116v100h-116" />
+        <path fill="#aff" d="m10 1570h116v100h-116" />
+        <path fill="#aff" d="m10 1690h116v100h-116" />
+        <path fill="#aff" d="m10 1810h116v100h-116" />
+        <path fill="#aff" d="m10 1930h116v100h-116" />
+        <path fill="#aff" d="m10 2050h116v100h-116" />
+        <path fill="#aff" d="m10 2170h116v100h-116" />
+        <path fill="#aff" d="m10 2290h116v100h-116" />
+        <path fill="#aff" d="m10 2410h116v100h-116" />
+    </g>
     <g id="column16" stroke-width="0" transform="translate(-1919, -120)">
         <path fill="#a00" d="m-10 -10h156v2540h-156" />
         <path fill="#fff" d="m0 0h136v120h-136" />
@@ -2752,7 +2798,7 @@
         </g>
 
         <g id="閥244" transform="translate(-1728, 600)">
-            <path d="m19 72l25-50 19 37" />
+            <path d="m19 72l25-50 19 38" />
             <path d="m43 53v51l-12-4" />
             <path d="m35 84l-6-18" />
             <path d="m52 84l6-18" />
@@ -2974,6 +3020,44 @@
             <path d="m 75 79 30-60" />
             <path d="m120 79-30-30" />
             <path d="m30 94h76" />
+        </g>
+
+        <g id="哩272" transform="translate(-2110, 0)">
+            <path d="m15 25v70" />
+            <path d="m30 10v100" />
+            <path d="m37 72l25-50 19 38" />
+            <path d="m61 53v51l-12-4" />
+            <path d="m53 84l-6-18" />
+            <path d="m70 84l6-18" />
+            <path d="m84 60l19-38 19 38" />
+            <path d="m92 70h24" />
+            <path d="m92 70a12 12 90 0024 0a12 12 90 00-24 0" />
+            <path d="m92 94h24" />
+            <path d="m92 94a12 12 90 0024 0a12 12 90 00-24 0" />
+        </g>
+
+        <g id="羅273" transform="translate(-2110, 120)">
+            <path d="m21 60 a46 46 0 0 0 92 0 a46 46 0 0 0 -92 0" />
+            <path d="m36 44h 64" />
+            <path d="m68 23v74" />
+            <path d="m36 76h 64" />
+
+        </g>
+
+        <g id="席274" transform="translate(-2110, 240)">
+            <path d="m33 35h68" />
+            <path d="m68 10v38" />
+            <path d="m68 48 46 23" />
+            <path d="m68 48 -46 23" />
+            <path d="m45 69h48" />
+            <path d="m50 105 12-36" />
+            <path d="m72 69 0 27a10 10 0 0 0 20 0l0-7" />
+        </g>
+
+        <g id="陸275" transform="translate(-2110, 360)">
+            <path d="m24 70 44-44 44 44" />
+            <path d="m47 67 40 0" />
+            <path d="m37 97 60 0" />
         </g>
     </g>
 </svg>
