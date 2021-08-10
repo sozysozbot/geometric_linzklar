@@ -14,7 +14,7 @@
 ## 統合
 逆に、 `node render.js` を走らせると、 `char_glyphs/` 下の各グリフのSVGと `content.txt` を読んで、一枚の `main.svg` を吐き出してくれる。ファイル名とフォルダ名を指定して実行したいなら `node render.js char_glyphs main.svg` とする。 `renderer_settings.json` で設定をいじることができる。
 
-* `viewBox_min_x`: viewBox の x がどこから始まるかを指定。
+* `viewBox_max_x`: viewBox の x がどこで**終わる**かを指定。原稿用紙は左に延びていくので、 `max_x` を指定した方が便利。
 * `viewBox_min_y`: viewBox の y がどこから始まるかを指定。
 * `column_format`: `" **** **** **** "` のように書いて、どこにスペースを入れるかを指定。
 * `outermost_border_color`: 各カラムの一番外の枠の色。

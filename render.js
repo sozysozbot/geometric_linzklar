@@ -59,21 +59,27 @@ const single_column_svg = `${rectangle({
         height: full_cell_height - 20
     })}`).join("\n");
 
+const image_full_width = column_num * (full_cell_width + 20 + config.column_spacing) - config.column_spacing;
+
+const viewBox_min_x = config.viewBox_max_x - image_full_width;
+
 const columns_svg = Array.from(
     { length: column_num },
-    (_, index) => `    <g id="column${column_num - 1 - index}" stroke-width="0" transform="translate(${config.viewBox_min_x + 10 + (full_cell_width + 20 + config.column_spacing) * index}, ${config.viewBox_min_y + 10})">
+    (_, index) => `    <g id="column${column_num - 1 - index}" stroke-width="0" transform="translate(${viewBox_min_x + 10 + (full_cell_width + 20 + config.column_spacing) * index}, ${config.viewBox_min_y + 10})">
 ${single_column_svg}
     </g>`
 ).join("\n");
+
+
 
 const glyphs_svg = glyphs_to_render.map((row, ind) => {
     const [initial] = [...row];
     const rem = ind % num_of_glyphs_each_row_can_contain; // determines the y coordinate
     const quot = Math.floor(ind / num_of_glyphs_each_row_can_contain); // determines the x coordinate
 
-    // column${column_num - 1 - index} corresponds to translate(${s.viewBox_min_x + 10 + (full_cell_width + 20 + s.column_spacing) * index}
-    // column${quot} corresponds to translate(${s.viewBox_min_x + 10 + (full_cell_width + 20 + s.column_spacing) * (column_num - quot - 1), ...}
-    const translate_x = config.viewBox_min_x + 10 + (full_cell_width + 20 + config.column_spacing) * (column_num - quot - 1);
+    // column${column_num - 1 - index} corresponds to translate(${viewBox_min_x + 10 + (full_cell_width + 20 + s.column_spacing) * index}
+    // column${quot} corresponds to translate(${viewBox_min_x + 10 + (full_cell_width + 20 + s.column_spacing) * (column_num - quot - 1), ...}
+    const translate_x = viewBox_min_x + 10 + (full_cell_width + 20 + config.column_spacing) * (column_num - quot - 1);
 
     // a clever technique from https://stackoverflow.com/questions/14480345/how-to-get-the-nth-occurrence-in-a-string
     // in which the fact that `String.prototype.split` has a second argument `.split(separator, limit)` is vrey cleverly used.
@@ -83,12 +89,11 @@ const glyphs_svg = glyphs_to_render.map((row, ind) => {
     return `        <g id="${row}${(1000 + ind).toString(10).slice(1)}" transform="translate(${translate_x}, ${translate_y})">${glyph_map.get(initial) ?? "\n\t\t\tN/A\n\t\t"}</g>\n`
 }).join("\n");
 
-const image_full_width = column_num * (full_cell_width + 20 + config.column_spacing) - config.column_spacing;
 
 
 fs.writeFileSync(out_file_name,
     `<?xml version="1.0" encoding="UTF-8"?>
-<svg width="${image_full_width}px" height="${image_full_height}px" version="1.1" viewBox="${config.viewBox_min_x} ${config.viewBox_min_y} ${image_full_width} ${image_full_height}" xmlns="http://www.w3.org/2000/svg">
+<svg width="${image_full_width}px" height="${image_full_height}px" version="1.1" viewBox="${viewBox_min_x} ${config.viewBox_min_y} ${image_full_width} ${image_full_height}" xmlns="http://www.w3.org/2000/svg">
 ${columns_svg}
 
     <g id="glyphs" stroke="#000" stroke-width="10" fill="none">
