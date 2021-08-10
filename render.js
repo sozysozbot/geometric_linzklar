@@ -80,7 +80,7 @@ const glyphs_svg = glyphs_to_render.map((row, ind) => {
     const vertical_pos = config.column_format.split("*", rem + 1).join("*").length;
     const translate_y = config.viewBox_min_y + 10 + full_cell_height * vertical_pos;
 
-    return `        <g id="${row}${(1000 + ind).toString(10).slice(1)}" transform="translate(${translate_x}, ${translate_y})">${glyph_map.get(initial)}</g>\n`
+    return `        <g id="${row}${(1000 + ind).toString(10).slice(1)}" transform="translate(${translate_x}, ${translate_y})">${glyph_map.get(initial) ?? "\n\t\t\tN/A\n\t\t"}</g>\n`
 }).join("\n");
 
 const image_full_width = column_num * (full_cell_width + 20 + config.column_spacing) - config.column_spacing;

@@ -1730,7 +1730,7 @@
             <path d="m33 106v-65" />
             <path d="m51 23l-36 36" />
 
-            <path d="m65 30v60" />
+            <path d="m66 30v57" />
             <path d="m50 95l70-35" />
             <path d="m103 10v100" />
         </g>
@@ -2548,6 +2548,42 @@
             <path d="m97 63v-50" />
             <path d="m97 63 15 45" />
             <path d="m97 63 -15 45" />
+        </g>
+
+        <g id="秋232" transform="translate(-1537, 1200)">
+            <path d="m39 12v90l-12-6" />
+            <path d="m26 45l-12-12" />
+            <path d="m52 45l12-12" />
+            <path d="m26 70l-12 12" />
+            <path d="m52 70l12 12" />
+            <path d="m79 31v57" />
+            <path d="m65 95l56-28" />
+            <path d="m107 10v100" />
+        </g>
+
+        <g id="祭233" transform="translate(-1537, 1320)">
+            <path d="m40 30h-6a15 15 0 0 0 0 30h12a15 15 0 0 0 0-30h-6" />
+            <path d="m40 65v-55" />
+            <path d="m40 65l21 42" />
+            <path d="m40 65l-21 42" />
+            <path d="m80 20l9 27" />
+            <path d="m115 15l-30 90" />
+            <path d="m74 57l46 46" />
+        </g>
+
+        <g id="巫234" transform="translate(-1537, 1440)">
+            <path d="m68 30a30 15 0 0 0 0 30a30 15 0 0 0 0 -30" />
+            <path d="m68 65v-55" />
+            <path d="m68 65 40 40" />
+            <path d="m68 65-40 40" />
+        </g>
+
+        <g id="麗235" transform="translate(-1537, 1560)">
+            <path d="m68 23h-10a21 21 0 0 0 0 42h20a21 21 0 0 0 0 -42h-10" />
+            <path d="m31 98h71" />
+            <path d="m68 98v-33" />
+            <path d="m58 65v-42" />
+            <path d="m78 65v-42" />
         </g>
     </g>
 </svg>
