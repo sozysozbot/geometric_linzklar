@@ -2935,9 +2935,9 @@
         <g id="古260" transform="translate(-1919, 600)">
             <path d="m68 10v16" />
             <path d="m30 26h76" />
-            <path d="m68 36h-5a17 17 0 000 34h10a17 17 0 000-34h-5" />
-            <path d="m46 53h44" />
-            <path d="m68 36v34" />
+            <path d="m68 38h-5a17 17 0 000 34h10a17 17 0 000-34h-5" />
+            <path d="m46 56h44" />
+            <path d="m68 38v34" />
             <path d="m18 84h100" />
             <path d="m38 69v20a30 15 0 0060 0l0-20" />
         </g>
