@@ -2885,5 +2885,35 @@
             <path d="m81 87l-9-18" />
             <path d="m103 87l9-18" />
         </g>
+
+        <g id="古260" transform="translate(-1919, 600)">
+            <path d="M68 10v14" />
+            <path d="M30 24h76" />
+            <path d="M68 36h-5a17 17 0 000 34h10a17 17 0 000-34h-5" />
+            <path d="M46 53h44" />
+            <path d="M68 36v34" />
+            <path d="M18 84h100" />
+            <path d="M38 69v20a30 15 0 0060 0l0-20" />
+        </g>
+
+        <g id="論261" transform="translate(-1919, 720)">
+            <path d="m48 34h40" />
+            <path d="m48 34 a20 20 0 0 0 40 0a20 20 0 0 0 -40 0" />
+
+            <path d="m48 86h40" />
+            <path d="m48 86 a20 20 0 0 0 40 0a20 20 0 0 0 -40 0" />
+        </g>
+
+        <g id="連262" transform="translate(-1919, 840)">
+            <path d="m36 18h58l-21 42" />
+            <path d="m81 104a22 22 0 000-44l-38 0l21-42" />
+        </g>
+
+        <g id="累263" transform="translate(-1919, 960)">
+            <path d="m68 68a27 25 0 0 0 0 -50a25 25 0 0 0 0 50" />
+            <path d="m78 99l12 -24" />
+            <path d="m58 99l-12 -24" />
+            <path d="m103 99h-69" />
+        </g>
     </g>
 </svg>
