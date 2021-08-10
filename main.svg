@@ -3268,5 +3268,40 @@
             <path d="m95 67l19 38" />
             <path d="m95 67l-19 38" />
         </g>
+
+        <g id="甘296" transform="translate(-2301, 1200)">
+            <path d="m25 30h86" />
+            <path d="m68 30v-20" />
+            <path d="m18 55h100" />
+            <path d="m38 55 0 30a30 15 0 0 0 60 0l0-30" />
+        </g>
+
+        <g id="菓297" transform="translate(-2301, 1320)">
+            <path d="m20 21h96" />
+            <path d="m36 68h64" />
+            <path d="m68 100v-79" />
+            <path d="m36 68a32 32 0 1 1 64 0a32 32 0 1 1 -64 0" />
+        </g>
+
+        <g id="油298" transform="translate(-2301, 1440)">
+            <path d="m25 20l9 27" />
+            <path d="m57 15l-30 90" />
+            <path d="m14 57l36 36" />
+
+            <path d="m55  100 25-75" />
+            <path d="m85  100-15-45" />
+            <path d="m90  100 25-75" />
+            <path d="m120 100-15-45" />
+        </g>
+
+        <g id="脂299" transform="translate(-2301, 1560)">
+            <path d="m25 20l9 27" />
+            <path d="m57 15l-30 90" />
+            <path d="m14 57l36 36" />
+            <path d="m64 21l44 0-17 34v32l-12-6" />
+            <path d="m78 67l-6-18" />
+            <path d="m102 67l6-18" />
+            <path d="m62 102h57" />
+        </g>
     </g>
 </svg>
