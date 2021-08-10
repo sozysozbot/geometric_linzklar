@@ -2783,5 +2783,36 @@
             <path d="m68 93v-33" />
             <path d="m110 93h-84" />
         </g>
+
+        <g id="女252" transform="translate(-1728, 1800)">
+            <path d="m30 32h76" />
+            <path d="m30 101a38 76 0 0038-76l0-10" />
+            <path d="m104 97l-80-40" />
+            <path d="m38 49l-12 24" />
+        </g>
+
+        <g id="男253" transform="translate(-1728, 1920)">
+            <path d="m27 40h81" />
+            <path d="m68 60v-50" />
+            <path d="m68 60 45 45" />
+            <path d="m68 60 -45 45" />
+            <path d="m102 69l -25 25" />
+        </g>
+
+        <g id="始254" transform="translate(-1728, 2040)">
+            <path d="m20 99h96" />
+            <path d="m36 52h64" />
+            <path d="m68 84v-64" />
+            <path d="m36 52a32 32 0 1 1 64 0a32 32 0 1 1 -64 0" />
+        </g>
+
+        <g id="氏255" transform="translate(-1728, 2160)">
+            <path d="m28 37h78" />
+            <path d="m68 37v-25" />
+            <path d="m68 37 45 45" />
+            <path d="m68 37 -45 45" />
+            <path d="m46 104v-20a22 22 0 1 1 44 0v20" />
+            <path d="m106 104h-76" />
+        </g>
     </g>
 </svg>
