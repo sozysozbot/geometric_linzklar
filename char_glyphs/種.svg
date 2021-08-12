@@ -4,13 +4,11 @@
     <path fill="#aff" d="m10 10 h116 v 100 h-116 z" />
     <g stroke="#000" stroke-width="10" fill="none">
         <g id="glyph">
-            <path d="m18 100v-70h35a32 64 0 0 0 32 64h40"></path>
-            <path d="m33 44l7 14"></path>
-            <path d="m33 73l7 14"></path>
-
-            <path d="m116 39h-46"></path>
-            <path d="m120 63h-54"></path>
-            <path d="m93 21v63"></path>
+            <path d="m21 29h95"></path>
+            <path d="m36 40l12 36"></path>
+            <path d="m58 40l12 36"></path>
+            <path d="m103 40l-17 51"></path>
+            <path d="m21 91h95"></path>
         </g>
     </g>
 </svg>
