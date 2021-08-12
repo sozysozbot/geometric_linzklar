@@ -3695,5 +3695,41 @@
             <path d="m99  72v-16" />
             <path d="m99  72 17 34" />
         </g>
+
+        <g id="或332" transform="translate(-2683, 1800)">
+            <path d="M50 14l-26 52" />
+            <path d="M37 40l60 0-26 52" />
+            <path d="M43 78l54 27" />
+        </g>
+
+        <g id="羚333" transform="translate(-2683, 1920)">
+            <path d="m43 17l7 21" />
+            <path d="m60 17l7 21" />
+            <path d="m94 17l-15 30" />
+            <path d="m27 47h20l-20 40" />
+            <path d="m77 103h6a22 22 90 000-44h-42" />
+            <path d="m60 59l-20 40" />
+            <path d="m79 59l-20 40" />
+        </g>
+
+        <g id="㕮334" transform="translate(-2683, 2040)">
+            <path d="m15 27h52" />
+            <path d="m43 27l-24 72" />
+            <path d="m33 57h7a21 21 0 1 1 0 42" />
+            <path d="m72 25h49" />
+            <path d="m95 25v-15" />
+            <path d="m72 52h49" />
+            <path d="m95 52v-18" />
+            <path d="m95 52l27 54" />
+            <path d="m95 52l-27 54" />
+            <path d="m118 71l-18 18" />
+        </g>
+
+        <g id="乎335" transform="translate(-2683, 2160)">
+            <path d="M63 102h15a22 22 90 000-44h-35l15-45" />
+            <path d="M45 102l22-44" />
+            <path d="M41 76l28 14" />
+            <path d="M51 34h44" />
+        </g>
     </g>
 </svg>
