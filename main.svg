@@ -3620,5 +3620,29 @@
             <path d="m73 103l21-42" />
             <path d="m109 103l-24-24" />
         </g>
+
+        <g id="球324" transform="translate(-2683, 600)">
+            <path d="m112 58v-11a44 22 0 00-88 0v11" />
+            <path d="m60 55l-19 38 51 0-11-22" />
+        </g>
+
+        <g id="型325" transform="translate(-2683, 720)">
+            <path d="m113 51h-90" />
+            <path d="m89 51l0-13a21 21 90 00-42 0l0 13" />
+            <path d="m86 84a18 18 0 00-36 0a18 18 0 0036 0" />
+        </g>
+
+        <g id="輪326" transform="translate(-2683, 840)">
+            <path d="m36 60a32 32 0 1 1 64 0a32 32 0 1 1 -64 0" />
+            <path d="m16 60h104" />
+            <path d="m68 92v-64" />
+        </g>
+
+        <g id="穴327" transform="translate(-2683, 960)">
+            <path d="m59 59a21 21 0 0 0-42 0a21 21 0 0 0 42 0" />
+            <path d="m122 56v11a19 38 0 0 1 -38 0v-57" />
+            <path d="m67 46l40-20" />
+            <path d="m67 76l40-20" />
+        </g>
     </g>
 </svg>
