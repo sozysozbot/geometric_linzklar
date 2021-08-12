@@ -6,7 +6,7 @@
         <g id="glyph">
             <path d="m20 26h96"></path>
             <path d="m30 102 25-75"></path>
-            <path d="m74 27 0 55a20 20 90 0 0 40 0l0-15"></path>
+            <path d="m74 27 0 55a20 20 0 0 0 40 0l0-15"></path>
         </g>
     </g>
 </svg>
