@@ -4030,5 +4030,38 @@
             <path d="m96 85l-23 23" />
             <path d="m96 85l23 23" />
         </g>
+
+        <g id="歌360" transform="translate(-3065, 1200)">
+            <path d="m15 27h52" />
+            <path d="m43 27l-24 72" />
+            <path d="m33 57h7a21 21 0 1 1 0 42" />
+
+            <path d="m70 27h52" />
+            <path d="m98 27l-24 72" />
+            <path d="m88 57h7a21 21 0 1 1 0 42" />
+        </g>
+
+        <g id="后361" transform="translate(-3065, 1320)">
+            <path d="m37 27h38" />
+            <path d="m62 12l-27 54" />
+            <path d="m49 38a26 26 0 0026 26h29" />
+            <path d="m73 52a20 20 0 0020-20l0-10" />
+            <path d="m76 35l28 14" />
+            <path d="m34 84h67" />
+            <path d="m51 72l0 21a18 9 0 0036 0l0-21" />
+
+        </g>
+
+        <g id="之362" transform="translate(-3065, 1440)">
+            <path d="m84 41l-42 42" />
+            <path d="m73 52l17 34 " />
+        </g>
+
+        <g id="静363" transform="translate(-3065, 1560)">
+            <path d="m26 20h78" />
+            <path d="m73 20l-42 84" />
+            <path d="m60 46h15a27 27 0 110 54h-10" />
+            <path d="m35 69l24 12" />
+        </g>
     </g>
 </svg>
