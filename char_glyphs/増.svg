@@ -4,20 +4,15 @@
     <path fill="#aff" d="m10 10 h116 v 100 h-116 z" />
     <g stroke="#000" stroke-width="10" fill="none">
         <g id="glyph">
-            <path d="m27 30l-12 36"></path>
-            <path d="m21 48h42"></path>
-            <path d="m41 65v-36"></path>
-            <path d="m41 65l-18 36"></path>
-            <path d="m41 65l18 36"></path>
+            <path d="m10 45h56"></path>
+            <path d="m23 30 0 37a15 15 0 0 0 30 0l0-37"></path>
 
-            <path d="m78 14l-12 24"></path>
-            <path d="m72 26h54"></path>
+            <path d="m69 26h54"></path>
             <path d="m96 36v-26"></path>
             <path d="m96 36l-23 23"></path>
             <path d="m96 36l23 23"></path>
 
-            <path d="m78 63l-12 24"></path>
-            <path d="m72 75h54"></path>
+            <path d="m69 75h54"></path>
             <path d="m96 85v-26"></path>
             <path d="m96 85l-23 23"></path>
             <path d="m96 85l23 23"></path>
