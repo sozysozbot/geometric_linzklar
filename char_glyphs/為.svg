@@ -7,7 +7,7 @@
             <path d="m52 12l-18 36"></path>
             <path d="m42 32h67"></path>
             <path d="m94 52l0 10a22 22 0 01-44 0l0-10"></path>
-            <path d="m72 32v78"></path>
+            <path d="m72 32v35a20 40 0 0 1 -20 40"></path>
         </g>
     </g>
 </svg>
