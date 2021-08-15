@@ -13,7 +13,7 @@
             <path d="m94 38v-26"></path>
             <path d="m94 38l23 46"></path>
             <path d="m94 38l-23 46"></path>
-            <path d="m80 104v-4a28 14 90 1128 0v4"></path>
+            <path d="m80 104v-4a14 28 0 1128 0v4"></path>
             <path d="m68 104h50"></path>
         </g>
     </g>

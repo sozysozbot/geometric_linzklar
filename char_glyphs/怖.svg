@@ -10,7 +10,7 @@
             <path d="m34 60v-50"></path>
             <path d="m34 60 15 45"></path>
             <path d="m34 60 -15 45"></path>
-            <path d="m68 37a22 22 0 0044 0a22 22 90 00-44 0"></path>
+            <path d="m68 37a22 22 0 0044 0a22 22 0 00-44 0"></path>
             <path d="m68 37h44"></path>
             <path d="m90 15v44"></path>
             <path d="m62 73h56 "></path>

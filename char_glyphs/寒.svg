@@ -4,7 +4,7 @@
     <path fill="#aff" d="m10 10 h116 v 100 h-116 z" />
     <g stroke="#000" stroke-width="10" fill="none">
         <g id="glyph">
-            <path d="m46 37a22 22 0 0044 0a22 22 90 00-44 0"></path>
+            <path d="m46 37a22 22 0 0044 0a22 22 0 00-44 0"></path>
             <path d="m46 37h44"></path>
             <path d="m68 15v44"></path>
             <path d="m40 73h56 "></path>

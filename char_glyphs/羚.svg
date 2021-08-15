@@ -8,7 +8,7 @@
             <path d="m60 17l7 21"></path>
             <path d="m94 17l-15 30"></path>
             <path d="m27 47h20l-20 40"></path>
-            <path d="m77 103h6a22 22 90 000-44h-42"></path>
+            <path d="m77 103h6a22 22 0 000-44h-42"></path>
             <path d="m60 59l-20 40"></path>
             <path d="m79 59l-20 40"></path>
         </g>
