@@ -1667,8 +1667,8 @@
         <g id="虎065" transform="translate(373, 120)">
             <path d="m20 31 23 0-20 60" />
             <path d="m89 96a22 22 0 000-44l-53 0" />
-            <path d="m82 52-17 45" />
-            <path d="m60 52-17 45" />
+            <path d="m82 52-15 45" />
+            <path d="m60 52-15 45" />
         </g>
 
         <g id="二066" transform="translate(373, 240)">
@@ -1917,7 +1917,7 @@
         <g id="呻097" transform="translate(-9, 120)">
             <path d="m12 39h37" />
             <path d="m32 39l-17 51" />
-            <path d="m25 60zh5a15 15 0 1 1 0 30" />
+            <path d="m25 60h5a15 15 0 1 1 0 30" />
 
             <path d="m105 40 11 -22" />
             <path d="m73 40 -11 -22" />
@@ -2211,7 +2211,7 @@
         <g id="傷131" transform="translate(-391, 360)">
             <path d="m43 45 l 32 -32" />
             <path d="m74 33 a 36 72 0 0 1 -36 72" />
-            <path d="m40 66 l 69 35" />
+            <path d="m40 66 l 70 35" />
         </g>
 
         <g id="毎132" transform="translate(-391, 600)">
@@ -3277,7 +3277,7 @@
         </g>
 
         <g id="累263" transform="translate(-1919, 960)">
-            <path d="m68 68a27 25 0 0 0 0 -50a25 25 0 0 0 0 50" />
+            <path d="m68 68a25 25 0 0 0 0 -50a25 25 0 0 0 0 50" />
             <path d="m78 99l12 -24" />
             <path d="m58 99l-12 -24" />
             <path d="m103 99h-69" />
@@ -4417,7 +4417,7 @@
 
         <g id="故395" transform="translate(-3447, 1560)">
             <path d="m39 42h58" />
-            <path d="m68 20h-7a22 22 90 000 44h14a22 22 90 000-44h-7" />
+            <path d="m68 20h-7a22 22 0 000 44h14a22 22 0 000-44h-7" />
             <path d="m68 95v-31" />
             <path d="m23 95h91" />
         </g>
@@ -4434,7 +4434,7 @@
 
         <g id="鎖397" transform="translate(-3447, 1920)">
             <path d="m46 16h42l-11 33" />
-            <path d="m62 16l-11 33 26 0a27 27 90 010 54l0 0" />
+            <path d="m62 16l-11 33 26 0a27 27 0 010 54" />
             <path d="m46 77a18 18 0 1136 0a18 18 0 11-36 0" />
             <path d="m35 77h58" />
             <path d="m64 95v-36" />
