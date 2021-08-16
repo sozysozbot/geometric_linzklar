@@ -4421,5 +4421,41 @@
             <path d="m68 95v-31" />
             <path d="m23 95h91" />
         </g>
+
+        <g id="織396" transform="translate(-3447, 1800)">
+            <path d="m65 32h-55" />
+            <path d="m52 32v60" />
+            <path d="m22 32v60" />
+            <path d="m65 92h-55" />
+
+            <path d="m71 26h40l-38 76" />
+            <path d="m93 36 0 40a13 26 0 0 0 26 0v-5" />
+        </g>
+
+        <g id="鎖397" transform="translate(-3447, 1920)">
+            <path d="m46 16h42l-11 33" />
+            <path d="m62 16l-11 33 26 0a27 27 90 010 54l0 0" />
+            <path d="m46 77a18 18 0 1136 0a18 18 0 11-36 0" />
+            <path d="m35 77h58" />
+            <path d="m64 95v-36" />
+        </g>
+
+        <g id="同398" transform="translate(-3447, 2040)">
+            <path d="m68 52h-5a14 14 0 11 0 -28h10a14 14 0 11 0 28h-5" />
+            <path d="m68 63h7a16 16 0 11 0 32h-14a16 16 0 11 0 -32h7" />
+            <path d="m68 10v100" />
+        </g>
+
+        <g id="噫399" transform="translate(-3447, 2160)">
+            <path d="m28 45 -10 -20" />
+            <path d="m46 45 10 -20" />
+            <path d="m13 60h48" />
+            <path d="m37 60v-50" />
+            <path d="m37 60 15 45" />
+            <path d="m37 60 -15 45" />
+            <path d="m67 27h52" />
+            <path d="m95 27l-24 72" />
+            <path d="m85 57h7a21 21 0 1 1 0 42" />
+        </g>
     </g>
 </svg>
