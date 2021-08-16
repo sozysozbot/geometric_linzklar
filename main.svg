@@ -4096,13 +4096,13 @@
         </g>
 
         <g id="恒358" transform="translate(-3065, 840)">
-            <path d="m51 31h34" />
+            <path d="m46 31h44" />
             <path d="m68 14h-5a17 17 0 0 0 0 34h10a17 17 0 0 0 0 -34h-5" />
             <path d="m68 14 v34" />
 
             <path d="m28 60h80" />
 
-            <path d="m51 89h34" />
+            <path d="m46 89h44" />
             <path d="m68 106h5a17 17 0 0 0 0 -34h-10a17 17 0 0 0 0 34h5" />
             <path d="m68 106 v-34" />
         </g>
@@ -4160,7 +4160,7 @@
         </g>
 
         <g id="刻365" transform="translate(-3065, 1920)">
-            <path d="m51 31h34" />
+            <path d="m46 31h44" />
             <path d="m68 14h-5a17 17 0 0 0 0 34h10a17 17 0 0 0 0 -34h-5" />
             <path d="m68 14 v34" />
 
@@ -4389,12 +4389,37 @@
         </g>
 
         <g id="素391" transform="translate(-3447, 960)">
-            <path d="m51 31h34" />
+            <path d="m46 31h44" />
             <path d="m68 14h-5a17 17 0 0 0 0 34h10a17 17 0 0 0 0 -34h-5" />
-            <path d="m68 14 v34" />
+            <path d="m68 14v34" />
             <path d="m28 60h80" />
             <path d="m40 74l49 0-23 23" />
             <path d="m56 87l20 20" />
+        </g>
+
+        <g id="頬392" transform="translate(-3447, 1200)">
+            <path d="m107 58v13a32 32 0 01-64 0v-54" />
+            <path d="m84 12a32 64 0 01-32 64" />
+            <path d="m55 40l38 19" />
+        </g>
+
+        <g id="中393" transform="translate(-3447, 1320)">
+            <path d="m30 88h76" />
+            <path d="m30 32h76" />
+            <path d="m68 88v-56" />
+        </g>
+
+        <g id="生394" transform="translate(-3447, 1440)">
+            <path d="m23 44h90" />
+            <path d="m41 22v23a27 27 0 0054 0l0-23" />
+            <path d="m32 91h72" />
+        </g>
+
+        <g id="故395" transform="translate(-3447, 1560)">
+            <path d="m39 42h58" />
+            <path d="m68 20h-7a22 22 90 000 44h14a22 22 90 000-44h-7" />
+            <path d="m68 95v-31" />
+            <path d="m23 95h91" />
         </g>
     </g>
 </svg>
