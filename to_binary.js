@@ -115,18 +115,22 @@ for (let glyph of glyphs) {
                     if (c.y < 0 && c.x === 0) {
                         return [sweep * 32 + 0x00, check(-c.y)];
                     } else if (c.y < 0 && c.x * -1 === c.y) {
+                        if (c.largeArc) { throw new Error("three-quarters are not allowed"); }
                         return [sweep * 32 + 0x03, check(c.x)];
                     } else if (c.y === 0 && c.x > 0) {
                         return [sweep * 32 + 0x06, check(c.x)];
                     } else if (c.y > 0 && c.x === c.y) {
+                        if (c.largeArc) { throw new Error("three-quarters are not allowed"); }
                         return [sweep * 32 + 0x09, check(c.y)];
                     } else if (c.y > 0 && c.x === 0) {
                         return [sweep * 32 + 0x0c, check(c.y)];
                     } else if (c.y > 0 && c.x * -1 === c.y) {
+                        if (c.largeArc) { throw new Error("three-quarters are not allowed"); }
                         return [sweep * 32 + 0x0f, check(-c.x)];
                     } else if (c.y === 0 && c.x < 0) {
                         return [sweep * 32 + 0x12, check(-c.x)];
                     } else if (c.y < 0 && c.x === c.y) {
+                        if (c.largeArc) { throw new Error("three-quarters are not allowed"); }
                         return [sweep * 32 + 0x15, check(-c.y)];
                     } else {
                         throw new Error(`Unsupported ratio in a circular arc (x: ${c.x}, y: ${c.y})`)
@@ -136,26 +140,34 @@ for (let glyph of glyphs) {
                     if (c.y < 0 && c.x === 0) {
                         return [sweep * 32 + is_vertically_long ? 0x18 : 0x1c, check(-c.y)];
                     } else if (c.y < 0 && c.x * -2 === c.y) {
+                        if (c.largeArc) { throw new Error("three-quarters are not allowed"); }
                         return [sweep * 32 + 0x02, check(c.x)];
                     } else if (c.y < 0 && c.x === c.y * -2) {
+                        if (c.largeArc) { throw new Error("three-quarters are not allowed"); }
                         return [sweep * 32 + 0x04, check(-c.y)];
                     } else if (c.y === 0 && c.x > 0) {
                         return [sweep * 32 + is_vertically_long ? 0x19 : 0x1d, check(c.x)];
                     } else if (c.y > 0 && c.x === c.y * 2) {
+                        if (c.largeArc) { throw new Error("three-quarters are not allowed"); }
                         return [sweep * 32 + 0x08, check(c.y)];
                     } else if (c.y > 0 && c.x * 2 === c.y) {
+                        if (c.largeArc) { throw new Error("three-quarters are not allowed"); }
                         return [sweep * 32 + 0x0a, check(c.x)];
                     } else if (c.y > 0 && c.x === 0) {
                         return [sweep * 32 + is_vertically_long ? 0x1a : 0x1e, check(c.y)];
                     } else if (c.y > 0 && c.x * -2 === c.y) {
+                        if (c.largeArc) { throw new Error("three-quarters are not allowed"); }
                         return [sweep * 32 + 0x0e, check(-c.x)];
                     } else if (c.y > 0 && c.x === c.y * -2) {
+                        if (c.largeArc) { throw new Error("three-quarters are not allowed"); }
                         return [sweep * 32 + 0x10, check(c.y)];
                     } else if (c.y === 0 && c.x < 0) {
                         return [sweep * 32 + is_vertically_long ? 0x1b : 0x1f, check(-c.x)];
                     } else if (c.y < 0 && c.x === c.y * 2) {
+                        if (c.largeArc) { throw new Error("three-quarters are not allowed"); }
                         return [sweep * 32 + 0x14, check(-c.y)];
                     } else if (c.y < 0 && c.x * 2 === c.y) {
+                        if (c.largeArc) { throw new Error("three-quarters are not allowed"); }
                         return [sweep * 32 + 0x16, check(-c.x)];
                     } else {
                         throw new Error(`Unsupported ratio in an elliptical arc (x: ${c.x}, y: ${c.y})`)
