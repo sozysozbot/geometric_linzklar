@@ -4,9 +4,9 @@
     <path fill="#aff" d="m10 10 h116 v 100 h-116 z" />
     <g stroke="#000" stroke-width="10" fill="none">
         <g id="glyph">
-            <path d="m12 39h37"></path>
-            <path d="m32 39l-17 51"></path>
-            <path d="m25 60zh5a15 15 0 1 1 0 30"></path>
+            <path d="m10 29h47"></path>
+            <path d="m36 29l-22 66"></path>
+            <path d="m27 56h6a19 19 0 110 38"></path>
 
             <path d="m71 17l-17 34"></path>
             <path d="m61 37h65"></path>
