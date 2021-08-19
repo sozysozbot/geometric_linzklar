@@ -4545,5 +4545,15 @@
             <path d="m73 103l21-42" />
             <path d="m109 103l-24-24" />
         </g>
+
+        <g id="泉404" transform="translate(-3638, 600)">
+            <path d="m12 48h50" />
+            <path d="m23 24v41a14 14 0 0028 0l0-41" />
+            <path d="m19 95h36" />
+            <path d="m62 95l23-69" />
+            <path d="m88 95l-13-39" />
+            <path d="m93 95l23-69" />
+            <path d="m119 95l-13-39" />
+        </g>
     </g>
 </svg>
