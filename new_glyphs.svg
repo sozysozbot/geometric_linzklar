@@ -474,7 +474,7 @@
 
         <g id="！032" transform="translate(373, 0)">
             <path d="m46 25v35l38-19" />
-            <path d="m31 95l70-35" />
+            <path d="m31 92l72-24" />
             <path d="m84 10v100" />
         </g>
 
@@ -631,7 +631,7 @@
         <g id="苔047" transform="translate(182, 960)">
             <path d="m47 39l-11-22" />
             <path d="m70 39l-11-22" />
-            <path d="m93 13v15a54 27 0 01-54 27v45l40-20" />
+            <path d="m96 12a42 42 0 01-42 42h-15v45l40-20" />
             <path d="m103 104l-43-43" />
         </g>
     </g>
