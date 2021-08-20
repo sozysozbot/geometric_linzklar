@@ -4625,7 +4625,7 @@
         </g>
 
         <g id="鹵411" transform="translate(-3638, 1560)">
-           <path d="m15 47l36-18" />
+            <path d="m15 47l36-18" />
             <path d="m27 41v45l20-10" />
             <path d="m52 91l-12-36" />
             <path d="m59 71l18-54" />
@@ -4665,6 +4665,13 @@
             <path d="m61 75h54" />
             <path d="m88 59v43" />
             <path d="m58 102h60" />
+        </g>
+
+        <g id="聿415" transform="translate(-3638, 2160)">
+            <path d="m38 24h60" />
+            <path d="m32 49h72" />
+            <path d="m40 98v-15 a28 14 0 0 1 56 0v15" />
+            <path d="m68 104v-80" />
         </g>
     </g>
 </svg>
