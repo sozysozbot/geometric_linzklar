@@ -22,6 +22,13 @@
 * `cell_inner_color`: 各セル内部の背景色。
 * `column_spacing`: カラム間の間隔。
 
+## コマンド
+
+```
+node split.js; node render.js
+node split.js new_glyphs.svg new_glyphs; node render.js new_glyphs new_glyphs.svg
+```
+
 ## 現状
  * 縦線
  * 横線

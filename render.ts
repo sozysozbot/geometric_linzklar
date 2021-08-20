@@ -19,7 +19,7 @@ files.forEach(function (file, _index) {
     glyph_map.set(file.slice(0, -4), glyph);
 })
 
-const config = JSON.parse(fs.readFileSync(`renderer_settings.json`, 'utf-8'));
+const config = JSON.parse(fs.readFileSync(`${in_path}/renderer_settings.json`, 'utf-8'));
 const full_cell_height = 120;
 const full_cell_width = 136;
 
