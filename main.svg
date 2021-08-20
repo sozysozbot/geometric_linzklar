@@ -4841,7 +4841,27 @@
             <path d="m68 43l-46 23" />
             <path d="m104 75l-90 30" />
             <path d="m32 75l90 30" />
+        </g>
 
-</g>
+        <g id="遍429" transform="translate(-3829, 1920)">
+            <path d="m21 60 a46 46 0 0 0 92 0 a46 46 0 0 0 -92 0" />
+            <path d="m55 70l-12 -36" />
+            <path d="m81 70l 12 -36" />
+            <path d="m36 80h 64" />
+        </g>
+
+        <g id="暗430" transform="translate(-3829, 2040)">
+            <path d="m29 41l72-24" />
+            <path d="m68 28v71l-24-12" />
+            <path d="m51 73l-12-24" />
+            <path d="m85 73l12-24" />
+        </g>
+
+        <g id="哃431" transform="translate(-3829, 2160)">
+            <path d="m68 44h-7a12 12 0 110-24h14a12 12 0 110 24h-7" />
+            <path d="m68 56h9a14 14 0 110 28h-18a14 14 0 110-28h9" />
+            <path d="m38 96h60" />
+            <path d="m68 9v102" />
+        </g>
     </g>
 </svg>
