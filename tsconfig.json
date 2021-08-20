@@ -2,7 +2,8 @@
   "compilerOptions": {
     "allowJs": true,
     "target": "esnext",
-    "module": "commonjs"
+    "module": "commonjs",
+    "noImplicitAny": true
   },
   "include": ["."]
 }

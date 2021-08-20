@@ -1,7 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const fs = require("fs");
 (() => {
     const in_path = process.argv[2] ?? "char_glyphs";
     const out_file_name = process.argv[3] ?? "overlap.svg";
-    const fs = require('fs');
     const text = fs.readFileSync(`${in_path}/content.txt`, 'utf-8');
     const jsdom = require("jsdom");
     const { JSDOM } = jsdom;
@@ -20,7 +22,7 @@
     const full_cell_height = 120;
     const full_cell_width = 136;
     const glyphs_to_render = text.split("\n").map(row => row.trim()).filter(row => row !== "");
-    const rectangle = ({ color, min_x, min_y, width, height }) => `        <${"path"} fill="${color}" d="m${min_x} ${min_y}h${width}v${height}h${-width}" />`;
+    const rectangle = (o) => `        <${"path"} fill="${o.color}" d="m${o.min_x} ${o.min_y}h${o.width}v${o.height}h${-o.width}" />`;
     const glyphs_svg = glyphs_to_render.map((row, ind) => {
         const [initial] = [...row];
         return `        <g id="${row}${(1000 + ind).toString(10).slice(1)}" >${glyph_map.get(initial) ?? "\n\t\t\tN/A\n\t\t"}</g>\n`;

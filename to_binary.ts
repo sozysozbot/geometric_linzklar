@@ -1,9 +1,9 @@
+import * as parse_svg from 'svg-path-parser';
 (() => {
 const file_name = process.argv[2] ?? "main.svg"
 const out_path = process.argv[3] ?? "bin_glyphs"
 const { Buffer } = require('buffer');
 const fs = require('fs');
-const parseSVG = require('svg-path-parser');
 const text = fs.readFileSync(file_name, 'utf-8');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
@@ -11,7 +11,7 @@ const dom = new JSDOM(text);
 const glyphs = [...dom.window.document.getElementById("glyphs").childNodes];
 let previous_num = -1;
 let text_content = "";
-let ans = [];
+let ans : number[] = [];
 for (let glyph of glyphs) {
     if (!glyph.id) { continue; }
     const id = `${glyph.id}`;
@@ -27,10 +27,10 @@ for (let glyph of glyphs) {
 
     const binary = [...glyph.childNodes].flatMap(path => {
         if (!path.getAttribute) { return []; }
-        return parseSVG(path.getAttribute("d")).flatMap(c => {
+        return parse_svg.parseSVG(path.getAttribute("d")).flatMap(c => {
             const scale_factor_min = 3;
             const scale_factor_max = 106;
-            const check = (a) => {
+            const check = (a: number) => {
                 if (scale_factor_min <= a && a <= scale_factor_max) { return a; }
                 else { throw new Error(`scale factor out of range: (Found ${a}, expected [${scale_factor_min} <= a <= ${scale_factor_max}])`) }
             };

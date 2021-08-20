@@ -1,8 +1,8 @@
+import * as fs from 'fs';
 (() => {
 const in_path = process.argv[2] ?? "char_glyphs"
 const out_file_name = process.argv[3] ?? "main.svg"
-const fs = require('fs');
-const text = fs.readFileSync(`${in_path}/content.txt`, 'utf-8');
+const text: string = fs.readFileSync(`${in_path}/content.txt`, 'utf-8');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
@@ -39,13 +39,13 @@ const row_num = config.border_colors.length;
 
 const image_full_height = 10 + row_num * full_cell_height + 10;
 
-const rectangle = ({ color, min_x, min_y, width, height }) =>
-    `        <${"path"} fill="${color}" d="m${min_x} ${min_y}h${width}v${height}h${-width}" />`;
+const rectangle = (o: { color: string, min_x: number, min_y: number, width: number, height:number }) =>
+    `        <${"path"} fill="${o.color}" d="m${o.min_x} ${o.min_y}h${o.width}v${o.height}h${-o.width}" />`;
 
 const single_column_svg = `${rectangle({
     color: "#a00", min_x: -10, min_y: -10, width: full_cell_width + 10 + 10, height: image_full_height
 })}\n` +
-    config.border_colors.map((color, ind) => `${rectangle({
+    config.border_colors.map((color: string, ind:number) => `${rectangle({
         color,
         min_x: 0,
         min_y: full_cell_height * ind,

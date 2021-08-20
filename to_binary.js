@@ -1,9 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const parse_svg = require("svg-path-parser");
 (() => {
     const file_name = process.argv[2] ?? "main.svg";
     const out_path = process.argv[3] ?? "bin_glyphs";
     const { Buffer } = require('buffer');
     const fs = require('fs');
-    const parseSVG = require('svg-path-parser');
     const text = fs.readFileSync(file_name, 'utf-8');
     const jsdom = require("jsdom");
     const { JSDOM } = jsdom;
@@ -29,7 +31,7 @@
             if (!path.getAttribute) {
                 return [];
             }
-            return parseSVG(path.getAttribute("d")).flatMap(c => {
+            return parse_svg.parseSVG(path.getAttribute("d")).flatMap(c => {
                 const scale_factor_min = 3;
                 const scale_factor_max = 106;
                 const check = (a) => {
