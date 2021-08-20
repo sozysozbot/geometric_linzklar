@@ -3812,16 +3812,16 @@
         </g>
 
         <g id="寐320" transform="translate(-2683, 0)">
+            <path d="m16 51l26-26 26 26" />
+            <path d="m42 46v51l-12-4" />
+            <path d="m31 82l-9-18" />
+            <path d="m53 82l9-18" />
+
             <path d="m73 28h50" />
             <path d="m83 18v22a15 15 0 0030 0l0-22" />
 
             <path d="m73 72h50" />
             <path d="m83 62v22a15 15 0 0030 0l0-22" />
-
-            <path d="m16 51l26-26 26 26" />
-            <path d="m42 46v51l-12-4" />
-            <path d="m31 82l-9-18" />
-            <path d="m53 82l9-18" />
         </g>
 
         <g id="立321" transform="translate(-2683, 120)">
@@ -4554,6 +4554,50 @@
             <path d="m88 95l-13-39" />
             <path d="m93 95l23-69" />
             <path d="m119 95l-13-39" />
+        </g>
+
+        <g id="嘛405" transform="translate(-3638, 720)">
+            <path d="m17 45h44" />
+            <path d="m17 96l44-22" />
+            <path d="m39 19v66" />
+            <path d="m67 27h52" />
+            <path d="m95 27l-24 72" />
+            <path d="m85 57h7a21 21 0 1 1 0 42" />
+        </g>
+
+        <g id="舗406" transform="translate(-3638, 840)">
+            <path d="m38 28h58" />
+            <path d="m40 64v-8 a28 14 0 0 1 56 0v8" />
+            <path d="m68 17l0 60" />
+            <path d="m38 77h58" />
+            <path d="m28 97h78" />
+        </g>
+
+        <g id="瀝407" transform="translate(-3638, 960)">
+            <path d="m14 52l23-23 23 23" />
+            <path d="m38 47v46l-12-4" />
+            <path d="m28 80l-8-16" />
+            <path d="m47 80l8-16" />
+            <path d="m59 96l23-69" />
+            <path d="m87 96l-14-42" />
+            <path d="m93 96l23-69" />
+            <path d="m121 96l-14-42" />
+        </g>
+
+        <g id="腐408" transform="translate(-3638, 1200)">
+            <path d="m21 39l22-22 22 22" />
+            <path d="m59 104v-45a16 16 0 00-32 0v45" />
+            <path d="m43 110v-81" />
+            <path d="m59 85h-32" />
+            <path d="m59 65h-32" />
+            <path d="m106 42l7-21" />
+            <path d="m82 42l-7-21" />
+            <path d="m68 42h50" />
+            <path d="m94 42v-31" />
+            <path d="m94 42l-21 42" />
+            <path d="m94 42l21 42" />
+            <path d="m84 76h19" />
+            <path d="m94 76v33" />
         </g>
     </g>
 </svg>
