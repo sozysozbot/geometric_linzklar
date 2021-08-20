@@ -477,7 +477,7 @@
             <path d="m32 75l90 30" />
         </g>
 
-        <g id="遍029" transform="translate(564, 720)">
+        <g id="＊029" transform="translate(564, 720)">
             <path d="m21 60 a46 46 0 0 0 92 0 a46 46 0 0 0 -92 0" />
             <path d="m55 70l-12 -36" />
             <path d="m81 70l 12 -36" />
@@ -688,6 +688,14 @@
             <path d="m31 49h74" />
             <path d="m68 49v58" />
             <path d="m46 58v8a22 22 0 0 0 44 0v-8" />
+        </g>
+
+        <g id="遍051" transform="translate(-9, 360)">
+            <path d="m21 60 a46 46 0 0 0 92 0 a46 46 0 0 0 -92 0" />
+            <path d="m55 65l-11 -33" />
+            <path d="m81 65l 11 -33" />
+            <path d="m36 65h 64" />
+            <path d="m36 82h 64" />
         </g>
     </g>
 </svg>

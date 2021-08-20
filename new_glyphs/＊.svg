@@ -5,10 +5,9 @@
     <g stroke="#000" stroke-width="10" fill="none">
         <g id="glyph">
             <path d="m21 60 a46 46 0 0 0 92 0 a46 46 0 0 0 -92 0"></path>
-            <path d="m55 65l-12 -36"></path>
-            <path d="m81 65l 12 -36"></path>
-            <path d="m36 65h 64"></path>
-            <path d="m36 82h 64"></path>
+            <path d="m55 70l-12 -36"></path>
+            <path d="m81 70l 12 -36"></path>
+            <path d="m36 80h 64"></path>
         </g>
     </g>
 </svg>
