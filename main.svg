@@ -4578,16 +4578,25 @@
 
         <g id="鍋408" transform="translate(-3638, 1200)">
             <path d="m64 14l-19 38 51 0-11-22" />
-			<path d="m63 63 10 10" />
+            <path d="m63 63 10 10" />
             <path d="m93 67v7a60 30 0 0 1 -60 30" />
             <path d="m43 74 60 30" />
-		</g>
+        </g>
 
         <g id="蟲409" transform="translate(-3638, 1320)">
             <path d="m100 104v-14a32 16 0 00-64 0v14" />
             <path d="m100 16v14a32 16 0 01-64 0v-14" />
             <path d="m68 10v100" />
             <path d="m31 60h74" />
+        </g>
+
+        <g id="矢410" transform="translate(-3638, 1440)">
+            <path d="m37 103v-65" />
+            <path d="m55 20l-36 36" />
+            <path d="m63 26h49l-23 69" />
+            <path d="m69 95l23-69" />
+            <path d="m63 61h52" />
+            <path d="m59 95h58" />
         </g>
     </g>
 </svg>
