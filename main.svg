@@ -4598,5 +4598,15 @@
             <path d="m63 61h52" />
             <path d="m59 95h58" />
         </g>
+
+        <g id="玄411" transform="translate(-3638, 1560)">
+            <path d="m22 68l22-44 22 44" />
+            <path d="m44 51v51l-12-4" />
+            <path d="m34 87l-6-18" />
+            <path d="m54 87l6-18" />
+            <path d="m91 18l-20 60" />
+            <path d="m85 36h25l-23 69" />
+            <path d="m78 57l40 40" />
+        </g>
     </g>
 </svg>
