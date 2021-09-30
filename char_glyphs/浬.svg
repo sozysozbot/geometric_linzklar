@@ -12,7 +12,7 @@
             <path d="m42 66l-6 18"></path>
             <path d="m61 66l6 18"></path>
             <path d="m75 40l20-20 27 27"></path>
-            <path d="m106 100h3a10 20 0 0 000-40h-31"></path>
+            <path d="m106 100h3a10 20 0 0 0 0 -40h-31"></path>
             <path d="m78 80l0-35"></path>
             <path d="m90 60l0  30"></path>
             <path d="m102 60l0 30"></path>
