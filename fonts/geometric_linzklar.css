@@ -1,7 +1,7 @@
 @font-face {
     font-family: "geometric_linzklar";
-    src: url("./geometric_linzklar.ttf?1b5e1a5fdc260b5c771f0fbacdfe6593") format("truetype"),
-url("./geometric_linzklar.woff?1b5e1a5fdc260b5c771f0fbacdfe6593") format("woff");
+    src: url("./geometric_linzklar.ttf?6f3687b528c2061f53867db868d269c4") format("truetype"),
+url("./geometric_linzklar.woff?6f3687b528c2061f53867db868d269c4") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -15,6 +15,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-々:before {
+    content: "\3005";
+}
 .icon-㕮:before {
     content: "\356e";
 }
