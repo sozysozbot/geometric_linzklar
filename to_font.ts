@@ -1,4 +1,4 @@
-import { generateFonts, FontAssetType } from 'fantasticon';
+import { generateFonts, FontAssetType, OtherAssetType } from 'fantasticon';
 import * as fs from 'fs';
 (async function() {
 const in_path = process.argv[2] ?? "char_glyphs"
@@ -29,6 +29,12 @@ generateFonts({
   outputDir: `./${out_path}`,
   name: "geometric_linzklar",
   fontTypes: [FontAssetType.TTF, FontAssetType.WOFF],
+  assetTypes: [
+    OtherAssetType.CSS,
+    OtherAssetType.HTML,
+    OtherAssetType.JSON,
+   /* OtherAssetType.TS */ // The TS asset is buggy; remove
+  ],
   fontHeight: 480,
   codepoints: glyph_map
 }).then(results => console.log(results));
