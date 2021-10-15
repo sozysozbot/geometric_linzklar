@@ -1,7 +1,7 @@
 @font-face {
     font-family: "geometric_linzklar";
-    src: url("./geometric_linzklar.ttf?f735acf028ece7e32a95f1623ad461ef") format("truetype"),
-url("./geometric_linzklar.woff?f735acf028ece7e32a95f1623ad461ef") format("woff");
+    src: url("./geometric_linzklar.ttf?1b5e1a5fdc260b5c771f0fbacdfe6593") format("truetype"),
+url("./geometric_linzklar.woff?1b5e1a5fdc260b5c771f0fbacdfe6593") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -212,6 +212,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-卵:before {
     content: "\5375";
+}
+.icon-叉:before {
+    content: "\53c9";
 }
 .icon-友:before {
     content: "\53cb";
@@ -465,6 +468,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-弓:before {
     content: "\5f13";
 }
+.icon-引:before {
+    content: "\5f15";
+}
 .icon-形:before {
     content: "\5f62";
 }
@@ -681,6 +687,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-油:before {
     content: "\6cb9";
 }
+.icon-泉:before {
+    content: "\6cc9";
+}
 .icon-浬:before {
     content: "\6d6c";
 }
@@ -701,6 +710,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-満:before {
     content: "\6e80";
+}
+.icon-溜:before {
+    content: "\6e9c";
 }
 .icon-激:before {
     content: "\6fc0";
@@ -735,6 +747,12 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-物:before {
     content: "\7269";
 }
+.icon-牲:before {
+    content: "\7272";
+}
+.icon-犛:before {
+    content: "\729b";
+}
 .icon-犬:before {
     content: "\72ac";
 }
@@ -743,6 +761,12 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-獣:before {
     content: "\7363";
+}
+.icon-玄:before {
+    content: "\7384";
+}
+.icon-玉:before {
+    content: "\7389";
 }
 .icon-王:before {
     content: "\738b";
@@ -791,6 +815,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-真:before {
     content: "\771f";
+}
+.icon-矢:before {
+    content: "\77e2";
 }
 .icon-短:before {
     content: "\77ed";
@@ -993,6 +1020,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-蜜:before {
     content: "\871c";
 }
+.icon-蟲:before {
+    content: "\87f2";
+}
 .icon-血:before {
     content: "\8840";
 }
@@ -1122,6 +1152,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-錘:before {
     content: "\9318";
 }
+.icon-鍋:before {
+    content: "\934b";
+}
 .icon-鎖:before {
     content: "\9396";
 }
@@ -1187,6 +1220,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-風:before {
     content: "\98a8";
+}
+.icon-飛:before {
+    content: "\98db";
 }
 .icon-馬:before {
     content: "\99ac";
