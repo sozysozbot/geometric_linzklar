@@ -37,5 +37,10 @@ generateFonts({
   ],
   fontHeight: 480,
   codepoints: glyph_map
-}).then(results => console.log(results));
+}).then(results => {
+  console.log(results);
+  // copy the resulting fonts into docs/
+  fs.copyFileSync("fonts/geometric_linzklar.ttf", "docs/geometric_linzklar.ttf");
+  fs.copyFileSync("fonts/geometric_linzklar.woff", "docs/geometric_linzklar.woff");
+});
 })();
