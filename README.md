@@ -2,7 +2,7 @@
 
 簡単な幾何学的図形だけで燐字をそこそこきれいに書きたい
 
-![](https://github.com/sozysozbot/geometric_linzklar/blob/master/main.png)
+![](https://github.com/sozysozbot/geometric_linzklar/blob/master/400.png)
 
 ## サイズ
 各グリフは、(10, 10) から始まる縦100 x 横116の水色の中にギリギリ入るか、水色の外の枠線にほんの少々めり込むかぐらいでデザインする。枠線を含めた縦120 x 横136 をフルセルと呼ぶ。フルセルをそのまま縦に並べることで程よい字間が実現できるという設計になっている。
