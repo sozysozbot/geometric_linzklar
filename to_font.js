@@ -21,6 +21,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const fantasticon_1 = require("fantasticon");
 const fs = __importStar(require("fs"));
+const fs_extra = __importStar(require("fs-extra"));
 (async function () {
     const fix_path = process.argv[3] ?? "fixed_glyphs";
     const out_path = process.argv[4] ?? "fonts";
@@ -49,9 +50,6 @@ const fs = __importStar(require("fs"));
     }).then(results => {
         console.log(results);
         // copy the resulting fonts into docs/
-        fs.copyFileSync("fonts/geometric_linzklar.ttf", "docs/geometric_linzklar.ttf");
-        fs.copyFileSync("fonts/geometric_linzklar.woff", "docs/geometric_linzklar.woff");
-        fs.writeFileSync("docs/glyph_codepoints.js", "const glyph_codepoints = ", "utf-8");
-        fs.appendFileSync("docs/glyph_codepoints.js", fs.readFileSync("fonts/geometric_linzklar.json", "utf-8"), "utf-8");
+        fs_extra.copy("fonts", "docs/fonts");
     });
 })();
