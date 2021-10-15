@@ -50,7 +50,7 @@ node split.js new_glyphs.svg new_glyphs; node render.js new_glyphs new_glyphs.sv
 上記の要素のみを使っていることがわかりやすいように、上記のものだけをエンコードできるバイナリフォーマットを定めてある。仕様は [binary.md](https://github.com/sozysozbot/geometric_linzklar/blob/master/binary.md) に書いた。
 
 ## フォント化
-`main.svg` に全部書いた後で `node split_noback.js` を走らせると、`char_glyphs_without_borders/` 下に各グリフのSVGと `content.txt` が並ぶはず。そうしたら `node fix_glyphs.ts` を走らせると `fixed_glyphs/` 下にストローク化したSVGが生成される（この処理はかなり重い）ので、最後に `node to_font.js` を走らせると、`fonts` 以下にフォントが生えるはず。
+`main.svg` に全部書いた後で `node split_noback.js` を走らせると、`char_glyphs_without_borders/` 下に各グリフのSVGと `content.txt` が並ぶはず。そうしたら `node fix_glyphs.js` を走らせると `fixed_glyphs/` 下にストローク化したSVGが生成される（この処理はかなり重い）ので、最後に `node to_font.js` を走らせると、`fonts` 以下にフォントが生えるはず。
 
 ## TODO
 以上のをもうMakefileかなんかにしてなんとかしろ

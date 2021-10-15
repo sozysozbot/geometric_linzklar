@@ -23,7 +23,7 @@ const config = JSON.parse(fs.readFileSync(`${in_path}/renderer_settings.json`, '
 const full_cell_height = 120;
 const full_cell_width = 136;
 
-const glyphs_to_render = text.split("\n").map(row => row.trim()).filter(row => row !== "");
+const glyphs_to_render = text.split("\n").map(row => row.includes("　" /* ideographic */) ? row : row.trim()).filter(row => row !== "");
 const num_of_glyphs_each_row_can_contain = [...config.column_format].filter(c => c == "*").length;
 if (num_of_glyphs_each_row_can_contain === 0) {
     console.error(`column_format must contain at least one asterisk`)

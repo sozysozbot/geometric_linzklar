@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="4931px" height="2540px" version="1.1" viewBox="-3648 -130 4931 2540" xmlns="http://www.w3.org/2000/svg">
+<svg width="5122px" height="2540px" version="1.1" viewBox="-3839 -130 5122 2540" xmlns="http://www.w3.org/2000/svg">
+    <g id="column26" stroke-width="0" transform="translate(-3829, -120)">
+        <path fill="#a00" d="m-10 -10h156v2540h-156" />
+        <path fill="#fff" d="m0 0h136v120h-136" />
+        <path fill="#ffa" d="m0 120h136v120h-136" />
+        <path fill="#faa" d="m0 240h136v120h-136" />
+        <path fill="#faf" d="m0 360h136v120h-136" />
+        <path fill="#aaf" d="m0 480h136v120h-136" />
+        <path fill="#fff" d="m0 600h136v120h-136" />
+        <path fill="#ffa" d="m0 720h136v120h-136" />
+        <path fill="#faa" d="m0 840h136v120h-136" />
+        <path fill="#faf" d="m0 960h136v120h-136" />
+        <path fill="#aaf" d="m0 1080h136v120h-136" />
+        <path fill="#fff" d="m0 1200h136v120h-136" />
+        <path fill="#ffa" d="m0 1320h136v120h-136" />
+        <path fill="#faa" d="m0 1440h136v120h-136" />
+        <path fill="#faf" d="m0 1560h136v120h-136" />
+        <path fill="#aaf" d="m0 1680h136v120h-136" />
+        <path fill="#fff" d="m0 1800h136v120h-136" />
+        <path fill="#ffa" d="m0 1920h136v120h-136" />
+        <path fill="#faa" d="m0 2040h136v120h-136" />
+        <path fill="#faf" d="m0 2160h136v120h-136" />
+        <path fill="#aaf" d="m0 2280h136v120h-136" />
+        <path fill="#fff" d="m0 2400h136v120h-136" />
+
+        <path fill="#aff" d="m10 10h116v100h-116" />
+        <path fill="#aff" d="m10 130h116v100h-116" />
+        <path fill="#aff" d="m10 250h116v100h-116" />
+        <path fill="#aff" d="m10 370h116v100h-116" />
+        <path fill="#aff" d="m10 490h116v100h-116" />
+        <path fill="#aff" d="m10 610h116v100h-116" />
+        <path fill="#aff" d="m10 730h116v100h-116" />
+        <path fill="#aff" d="m10 850h116v100h-116" />
+        <path fill="#aff" d="m10 970h116v100h-116" />
+        <path fill="#aff" d="m10 1090h116v100h-116" />
+        <path fill="#aff" d="m10 1210h116v100h-116" />
+        <path fill="#aff" d="m10 1330h116v100h-116" />
+        <path fill="#aff" d="m10 1450h116v100h-116" />
+        <path fill="#aff" d="m10 1570h116v100h-116" />
+        <path fill="#aff" d="m10 1690h116v100h-116" />
+        <path fill="#aff" d="m10 1810h116v100h-116" />
+        <path fill="#aff" d="m10 1930h116v100h-116" />
+        <path fill="#aff" d="m10 2050h116v100h-116" />
+        <path fill="#aff" d="m10 2170h116v100h-116" />
+        <path fill="#aff" d="m10 2290h116v100h-116" />
+        <path fill="#aff" d="m10 2410h116v100h-116" />
+    </g>
     <g id="column25" stroke-width="0" transform="translate(-3638, -120)">
         <path fill="#a00" d="m-10 -10h156v2540h-156" />
         <path fill="#fff" d="m0 0h136v120h-136" />
@@ -4610,7 +4656,7 @@
         </g>
 
         <g id="々412" transform="translate(-3638, 1800)">
-            <path d="M49 33l38 19a40 20 0 0 0 0 40"  />
+            <path d="m49 33l38 19a40 20 0 0 0 0 40" />
         </g>
 
         <g id="。413" transform="translate(-3638, 1920)">
@@ -4621,7 +4667,17 @@
             <path d="m65 45l-10 20" />
             <path d="m82 47l-14 28" />
         </g>
+
         <g id="　415" transform="translate(-3638, 2160)">
+        </g>
+
+        <g id="！416" transform="translate(-3829, 0)">
+            <path d="m57 37v31" />
+            <path d="m78 30v54l-18-6" />
+        </g>
+
+        <g id="？417" transform="translate(-3829, 120)">
+            <path d="m44 40 32 0-21 42 37 0-6-18" />
         </g>
     </g>
 </svg>

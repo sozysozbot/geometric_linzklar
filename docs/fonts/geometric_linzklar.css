@@ -1,7 +1,7 @@
 @font-face {
     font-family: "geometric_linzklar";
-    src: url("./geometric_linzklar.ttf?6f3687b528c2061f53867db868d269c4") format("truetype"),
-url("./geometric_linzklar.woff?6f3687b528c2061f53867db868d269c4") format("woff");
+    src: url("./geometric_linzklar.ttf?893a4f6e9168737b80e22ce95d463bf5") format("truetype"),
+url("./geometric_linzklar.woff?893a4f6e9168737b80e22ce95d463bf5") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -15,8 +15,20 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-　:before {
+    content: "\3000";
+}
+.icon-。:before {
+    content: "\3002";
+}
 .icon-々:before {
     content: "\3005";
+}
+.icon-「:before {
+    content: "\300c";
+}
+.icon-」:before {
+    content: "\300d";
 }
 .icon-㕮:before {
     content: "\356e";
@@ -1256,4 +1268,13 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-龍:before {
     content: "\9f8d";
+}
+.icon-！:before {
+    content: "\ff01";
+}
+.icon-？:before {
+    content: "\ff1f";
+}
+.icon-:before {
+    content: "\f101";
 }
