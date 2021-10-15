@@ -23,14 +23,11 @@
             console.warn(`INCORRECT NUMBERING: ${previous_num} is followed by ${num}`);
         }
         previous_num = num;
-        const keys = char.split('/');
-        for (let key of keys) {
-            if (glyph_map.has(key)) {
-                console.warn(`DUPLICATE KEY: ${key}`);
-            }
-            // kick in the conversion to the relative coordinate here
-            glyph_map.set(key, glyph.innerHTML.replace(/d="M/g, 'd="m'));
+        if (glyph_map.has(char)) {
+            console.warn(`DUPLICATE KEY: ${char}`);
         }
+        // kick in the conversion to the relative coordinate here
+        glyph_map.set(char, glyph.innerHTML.replace(/d="M/g, 'd="m'));
         text_content += char + "\n";
     }
     fs.writeFileSync(`${out_path}/content.txt`, text_content);
@@ -44,5 +41,5 @@
     </g>
 </svg>`);
     });
-    console.log(`Wrote ${glyph_map.size} glyphs and \`content.txt\` under \`${out_path}/\`. Note that the number of the glyphs can be greater than the number of rows in \`content.txt\` because of cases like 石/岩 where the glyphs are shared.`);
+    console.log(`Wrote ${glyph_map.size} glyphs and \`content.txt\` under \`${out_path}/\`.`);
 })();

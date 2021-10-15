@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136mm" height="120mm" version="1.1" viewBox="0 0 136 120" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#faa" d="m0 0 h136v120h-136" />
+    <path fill="#aff" d="m10 10 h116 v 100 h-116 z" />
+    <g stroke="#000" stroke-width="10" fill="none">
+        <g id="glyph">
+            <path d="m55 14l-15 30"></path>
+            <path d="m48 28l50 0-26 26"></path>
+            <path d="m58 47l28 14"></path>
+            <path d="m68 103a18 18 0 000-36a18 18 90 000 36"></path>
+        </g>
+    </g>
+</svg>
