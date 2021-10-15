@@ -17,7 +17,7 @@
         const id = `${glyph.id}`;
         const num_ = id.slice(-3);
         const num = Number.parseInt(num_, 10);
-        const char = id.slice(0, -3); // can be a single character, like '軟', or a multiple characters, like '石/岩'
+        const char = id.slice(0, -3); // can be a single character, like '軟', or a multiple characters, like '「/」'
         console.log(char, num);
         if (num !== previous_num + 1) {
             console.warn(`INCORRECT NUMBERING: ${previous_num} is followed by ${num}`);
@@ -42,5 +42,5 @@
     </g>
 </svg>`);
     });
-    console.log(`Wrote ${glyph_map.size} glyphs and \`content.txt\` under \`${out_path}/\`. Note that the number of the glyphs can be greater than the number of rows in \`content.txt\` because of cases like 石/岩 where the glyphs are shared.`);
+    console.log(`Wrote ${glyph_map.size} glyphs and \`content.txt\` under \`${out_path}/\`. Note that the number of the glyphs can be greater than the number of rows in \`content.txt\` because of cases like "「/」" where the glyphs are shared.`);
 })();

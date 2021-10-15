@@ -17,17 +17,20 @@
         const id = `${glyph.id}`;
         const num_ = id.slice(-3);
         const num = Number.parseInt(num_, 10);
-        const char = id.slice(0, -3); // can be a single character, like '軟', or a multiple characters, like '石/岩'
+        const char = id.slice(0, -3); // can be a single character, like '軟', or a multiple characters, like '「/」'
         console.log(char, num);
         if (num !== previous_num + 1) {
             console.warn(`INCORRECT NUMBERING: ${previous_num} is followed by ${num}`);
         }
         previous_num = num;
-        if (glyph_map.has(char)) {
-            console.warn(`DUPLICATE KEY: ${char}`);
+        const keys = char.split('/');
+        for (let key of keys) {
+            if (glyph_map.has(key)) {
+                console.warn(`DUPLICATE KEY: ${key}`);
+            }
+            // kick in the conversion to the relative coordinate here
+            glyph_map.set(key, glyph.innerHTML.replace(/d="M/g, 'd="m'));
         }
-        // kick in the conversion to the relative coordinate here
-        glyph_map.set(char, glyph.innerHTML.replace(/d="M/g, 'd="m'));
         text_content += char + "\n";
     }
     fs.writeFileSync(`${out_path}/content.txt`, text_content);
@@ -41,5 +44,5 @@
     </g>
 </svg>`);
     });
-    console.log(`Wrote ${glyph_map.size} glyphs and \`content.txt\` under \`${out_path}/\`.`);
+    console.log(`Wrote ${glyph_map.size} glyphs and \`content.txt\` under \`${out_path}/\`. Note that the number of the glyphs can be greater than the number of rows in \`content.txt\` because of cases like "「/」" where the glyphs are shared.`);
 })();
