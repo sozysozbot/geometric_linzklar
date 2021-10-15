@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136mm" height="120mm" version="1.1" viewBox="0 0 136 120" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="#000" stroke-width="10" fill="none">
+        <g id="glyph">
+            <path d="m27 23l-10 30"></path>
+            <path d="m22 38h44"></path>
+            <path d="m42 50v-32"></path>
+            <path d="m42 50l16 48"></path>
+            <path d="m42 50l-16 48"></path>
+            <path d="m84 23l-10 30"></path>
+            <path d="m79 38h44"></path>
+            <path d="m100 50l16 48"></path>
+            <path d="m100 50v-32"></path>
+            <path d="m100 50l-16 48"></path>
+        </g>
+    </g>
+</svg>

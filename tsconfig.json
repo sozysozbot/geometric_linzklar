@@ -4,6 +4,7 @@
     "target": "esnext",
     "module": "commonjs",
     "noImplicitAny": true,
+    "esModuleInterop": true,
     "strictNullChecks": true
   },
   "include": ["."]
