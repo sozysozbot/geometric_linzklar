@@ -22,15 +22,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const fantasticon_1 = require("fantasticon");
 const fs = __importStar(require("fs"));
 (async function () {
-    const in_path = process.argv[2] ?? "char_glyphs_without_borders";
     const fix_path = process.argv[3] ?? "fixed_glyphs";
     const out_path = process.argv[4] ?? "fonts";
-    const SVGFixer = require("oslllo-svg-fixer");
-    const fix_options = {
-        showProgressBar: true,
-        throwIfDestinationDoesNotExist: false,
-    };
-    await SVGFixer(`./${in_path}`, `./${fix_path}`, fix_options).fix();
     const glyph_map = {};
     const files = fs.readdirSync(`${fix_path}/`);
     files.forEach((file, index) => {
@@ -58,5 +51,7 @@ const fs = __importStar(require("fs"));
         // copy the resulting fonts into docs/
         fs.copyFileSync("fonts/geometric_linzklar.ttf", "docs/geometric_linzklar.ttf");
         fs.copyFileSync("fonts/geometric_linzklar.woff", "docs/geometric_linzklar.woff");
+        fs.writeFileSync("docs/glyph_codepoints.js", "const glyph_codepoints = ", "utf-8");
+        fs.appendFileSync("docs/glyph_codepoints.js", fs.readFileSync("fonts/geometric_linzklar.json", "utf-8"), "utf-8");
     });
 })();
