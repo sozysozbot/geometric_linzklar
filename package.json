@@ -1,0 +1,27 @@
+{
+  "name": "geometric_linzklar",
+  "version": "0.1.0",
+  "description": "簡単な幾何学的図形だけで燐字をそこそこきれいに書きたい",
+  "dependencies": {
+    "fantasticon": "^1.2.3",
+    "jsdom": "^17.0.0",
+    "svg-path-parser": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.0",
+    "@types/svg-path-parser": "^1.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sozysozbot/geometric_linzklar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sozysozbot/geometric_linzklar/issues"
+  },
+  "homepage": "https://github.com/sozysozbot/geometric_linzklar#readme"
+}
