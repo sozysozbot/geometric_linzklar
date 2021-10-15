@@ -1,7 +1,7 @@
 import { generateFonts, FontAssetType, OtherAssetType } from 'fantasticon';
 import * as fs from 'fs';
 (async function() {
-const in_path = process.argv[2] ?? "char_glyphs"
+const in_path = process.argv[2] ?? "char_glyphs_without_borders"
 const fix_path = process.argv[3] ?? "fixed_glyphs"
 const out_path = process.argv[4] ?? "fonts"
 const SVGFixer = require("oslllo-svg-fixer");

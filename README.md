@@ -42,6 +42,9 @@
 ## バイナリフォーマット
 上記の要素のみを使っていることがわかりやすいように、上記のものだけをエンコードできるバイナリフォーマットを定めてある。仕様は [binary.md](https://github.com/sozysozbot/geometric_linzklar/blob/master/binary.md) に書いた。
 
+## フォント化
+`main.svg` に全部書いた後で `node split_noback.js` を走らせると、`char_glyphs_without_borders/` 下に各グリフのSVGと `content.txt` が並ぶはず。そうしたら `node to_font.js` を走らせると、`fonts` 以下にフォントが生えるはず。
+
 ## お世話になったツール一覧
 * Visual Studio Code
 * [jock.svg Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=jock.svg)
