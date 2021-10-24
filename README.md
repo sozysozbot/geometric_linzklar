@@ -76,4 +76,5 @@ node split.js new_glyphs.svg new_glyphs; node render.js new_glyphs new_glyphs.sv
     - ただまあ、このコードめちゃめちゃ遅いのよね。一般にベジエに対するフィル化がつらいのはわかるのだけれど、当リポジトリではベジエを使わず円・楕円・直線だけで書いてるので、それを決め打ちにすれば遥かに高速化できるはず。
 
 * [fantasticon](https://github.com/tancredi/fantasticon)
+    - フォントをTTFとWOFFで吐いてくれるだけでなく、[グリフを一覧できるHTML](https://sozysozbot.github.io/geometric_linzklar/fonts/geometric_linzklar.html)まで出力してくれてとても便利。
     - ただし、なんか生成物のTypeScriptが2021年10月25日現在バグってる（出力コードポイントが漢字であることが原因だろうか？えーでもそうはならんくない？）ので、`assetTypes: [ OtherAssetType.CSS, OtherAssetType.HTML, OtherAssetType.JSON]` と指定して明確に TypeScript の生成を抑制してやる必要がある。 
