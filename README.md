@@ -4,6 +4,12 @@
 
 ![](https://github.com/sozysozbot/geometric_linzklar/blob/master/400.png)
 
+## 燐字 is なに
+我々が創作している文字体系。詳細は[別リポジトリのREADME](https://github.com/jurliyuuri/linzklar-recognition/#readme)とか[別リポジトリにある教材](http://jurliyuuri.com/spoonfed_pekzep/index.html)とかで説明している。
+
+## フォントの実演
+[こちら](https://sozysozbot.github.io/geometric_linzklar/sample_y1huap1cet2kaikzui1.html)
+
 ## サイズ
 各グリフは、(10, 10) から始まる縦100 x 横116の水色の中にギリギリ入るか、水色の外の枠線にほんの少々めり込むかぐらいでデザインする。枠線を含めた縦120 x 横136 をフルセルと呼ぶ。フルセルをそのまま縦に並べることで程よい字間が実現できるという設計になっている。
 中心縦線は `<path d="m68 10v100z" />` である。左右対称な点のx座標を足し算すると 136 になるべきであることに注意。太さをバリアブルにする都合上、枠線に対して垂直な線はギリギリまで伸ばすが、横線は横枠線よりも11以上離して置くほうがいい。横の長い上線はだいたい `<path d="m20 21h96z" />` と書けばいい。
