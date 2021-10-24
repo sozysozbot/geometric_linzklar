@@ -68,11 +68,19 @@ node split.js new_glyphs.svg new_glyphs; node render.js new_glyphs new_glyphs.sv
 
 ### SVG を手書きするのに役立ったツール
 * Visual Studio Code
+    - 最近はこれとNotepad++とメモ帳しか使ってない
+
 * [jock.svg Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=jock.svg)
+    - SVGをリアルタイムでプレビューできて便利
+    - ただし、`<path d="...">` ってパターンを見つけるとなんでもシンタックスハイライトしようとしてくるので、テンプレート文字列とかであっても容赦なく色を塗ってくる点はちょっと不便。
+![](https://github.com/sozysozbot/geometric_linzklar/blob/master/syntax_highlight.png)
 * [SVGPathEditor](https://yqnn.github.io/svg-path-editor/)
+    - SVGのパスデータを拡縮したり、平行移動したり、相対座標へ全変換したり、四捨五入したりできる。
+    - 今回は「整数座標でのベタ書きしかできない」という縛りでやったので、transformとかをSVG内に残すことなくデータを完成させるのに本当にお世話になった。
 
 ### フォントを生成するのにお世話になったライブラリ
-* [oslllo-svg-fixer](https://github.com/oslllo/svg-fixer)：ストロークで書かれたSVGをフィルに変換する。つまり、たとえば「太さ0.5で長さ10の直線」として指示されている描画を、「0.5×10の長方形の内部を塗りつぶしたもの」という指示へと変換してくれる。多くのフォント生成ツールは入力がフィルになっていることを前提としており、したがってこのツールで変換してやる必要があった。
+* [oslllo-svg-fixer](https://github.com/oslllo/svg-fixer)
+    - ストロークで書かれたSVGをフィルに変換する。つまり、たとえば「太さ0.5で長さ10の直線」として指示されている描画を、「0.5×10の長方形の内部を塗りつぶしたもの」という指示へと変換してくれる。多くのフォント生成ツールは入力がフィルになっていることを前提としており、したがってこのツールで変換してやる必要があった。
     - ただまあ、このコードめちゃめちゃ遅いのよね。一般にベジエに対するフィル化がつらいのはわかるのだけれど、当リポジトリではベジエを使わず円・楕円・直線だけで書いてるので、それを決め打ちにすれば遥かに高速化できるはず。
 
 * [fantasticon](https://github.com/tancredi/fantasticon)
