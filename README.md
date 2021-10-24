@@ -65,6 +65,15 @@ node split.js new_glyphs.svg new_glyphs; node render.js new_glyphs new_glyphs.sv
 以上のをもうMakefileかなんかにしてなんとかしろ
 
 ## お世話になったツール一覧
+
+### SVG を手書きするのに役立ったツール
 * Visual Studio Code
 * [jock.svg Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=jock.svg)
 * [SVGPathEditor](https://yqnn.github.io/svg-path-editor/)
+
+### フォントを生成するのにお世話になったライブラリ
+* [oslllo-svg-fixer](https://github.com/oslllo/svg-fixer)：ストロークで書かれたSVGをフィルに変換する。つまり、たとえば「太さ0.5で長さ10の直線」として指示されている描画を、「0.5×10の長方形の内部を塗りつぶしたもの」という指示へと変換してくれる。多くのフォント生成ツールは入力がフィルになっていることを前提としており、したがってこのツールで変換してやる必要があった。
+    - ただまあ、このコードめちゃめちゃ遅いのよね。一般にベジエに対するフィル化がつらいのはわかるのだけれど、当リポジトリではベジエを使わず円・楕円・直線だけで書いてるので、それを決め打ちにすれば遥かに高速化できるはず。
+
+* [fantasticon](https://github.com/tancredi/fantasticon)
+    - ただし、なんか生成物のTypeScriptが2021年10月25日現在バグってる（出力コードポイントが漢字であることが原因だろうか？えーでもそうはならんくない？）ので、`assetTypes: [ OtherAssetType.CSS, OtherAssetType.HTML, OtherAssetType.JSON]` と指定して明確に TypeScript の生成を抑制してやる必要がある。 
