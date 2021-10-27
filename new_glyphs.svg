@@ -607,5 +607,24 @@
             <path d="m67 67h33l-40 40" />
             <path d="m79 77a25 25 0 0025 25h21" />
         </g>
+
+        <g id="試044" transform="translate(182, 600)">
+            <path d="m20 57v12a20 20 0 0040 0v-24a20 20 0 00-40 0v12" />
+            <path d="m40 25v64" />
+            <path d="m78 27h40" />
+            <path d="m70 43l14-28" />
+            <path d="m112 48v18a16 16 0 01-32 0l0-18" />
+            <path d="m96 27v37a20 40 0 0 1 -20 40" />
+        </g>
+        <g id="験045" transform="translate(182, 720)">
+            <path d="M49 10v40l-21-7" />
+            <path d="M12 36l60-20" />
+            <path d="M101 10v40l-21-7" />
+            <path d="M64 36l60-20" />
+            <path d="M52 48l-14 28" />
+            <path d="M47 58h61" />
+            <path d="M93 68l0 9a22 11 0 01-44 0l0-9" />
+            <path d="M71 58v27a20 20 90 01-20 20" />
+        </g>
     </g>
 </svg>
