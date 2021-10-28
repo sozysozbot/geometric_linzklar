@@ -678,5 +678,10 @@
             <path d="m73  104l19-38" />
             <path d="m109 104l-24-24" />
         </g>
+        <g id="順049" transform="translate(-9, 120)">
+            <path d="M73 88h14a20 20 90 000-40h-14l9-27h-49" />
+            <path d="M56 21l-23 69" />
+            <path d="m25 102h86" />
+        </g>
     </g>
 </svg>
