@@ -4679,5 +4679,14 @@
         <g id="？417" transform="translate(-3829, 120)">
             <path d="m44 40 32 0-21 42 37 0-6-18" />
         </g>
+
+        <g id="慥418" transform="translate(-3829, 240)">
+            <path d="m28 18h80" />
+            <path d="m48 18v39l30-15" />
+            <path d="m70 24l36 36" />
+            <path d="m30 75h76" />
+            <path d="m68 59v43" />
+            <path d="m25 102h86" />
+        </g>
     </g>
 </svg>
