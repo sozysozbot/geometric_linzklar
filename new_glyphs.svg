@@ -718,5 +718,17 @@
             <path d="M55 67l-14 7" />
             <path d="M81 67l14 7" />
         </g>
+        <g id="檸054" transform="translate(-9, 840)">
+            <path d="M23 45l-7-21" />
+            <path d="M38 45l7-21" />
+            <path d="M11 60h38" />
+            <path d="M31 10v100" />
+            <path d="M31 60l15 45" />
+            <path d="M31 60l-15 45" />
+            <path d="M83 35l0 24a14 14 90 01-28 0l0-24" />
+            <path d="M69 15v90" />
+            <path d="M94 35l0 24a14 14 90 0028 0l0-24" />
+            <path d="M108 15v90" />
+        </g>
     </g>
 </svg>
