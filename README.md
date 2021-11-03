@@ -8,7 +8,9 @@
 我々が創作している文字体系。詳細は[別リポジトリのREADME](https://github.com/jurliyuuri/linzklar-recognition/#readme)とか[別リポジトリにある教材](http://jurliyuuri.com/spoonfed_pekzep/index.html)とかで説明している。
 
 ## フォントの実演
-[こちら](https://sozysozbot.github.io/geometric_linzklar/sample_y1huap1cet2kaikzui1.html)
+* [トップページ](https://sozysozbot.github.io/geometric_linzklar/index.html)
+* [文書1](https://sozysozbot.github.io/geometric_linzklar/sample_y1huap1cet2kaikzui1.html)
+* [文書2](https://sozysozbot.github.io/geometric_linzklar/sample_此書之律慥之官定.html)
 
 ## サイズ
 各グリフは、(10, 10) から始まる縦100 x 横116の水色の中にギリギリ入るか、水色の外の枠線にほんの少々めり込むかぐらいでデザインする。枠線を含めた縦120 x 横136 をフルセルと呼ぶ。フルセルをそのまま縦に並べることで程よい字間が実現できるという設計になっている。
