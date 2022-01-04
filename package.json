@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@types/fs-extra": "9.0.13",
-    "@types/node": "16.11.18",
+    "@types/node": "16.11.19",
     "@types/svg-path-parser": "1.1.3",
     "@types/svg2ttf": "5.0.1",
     "@types/svgicons2svgfont": "10.0.1",
