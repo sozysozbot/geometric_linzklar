@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "description": "簡単な幾何学的図形だけで燐字をそこそこきれいに書きたい",
   "dependencies": {
-    "canvas": "^2.8.0",
+    "canvas": "2.9.0",
     "fantasticon": "1.2.3",
     "fs-extra": "10.0.0",
-    "jsdom": "18.0.0",
-    "oslllo-svg-fixer": "1.4.1",
+    "jsdom": "19.0.0",
+    "oslllo-svg-fixer": "2.0.1",
     "svg-path-parser": "1.1.0"
   },
   "devDependencies": {
     "@types/fs-extra": "9.0.13",
-    "@types/node": "16.11.6",
+    "@types/node": "16.11.21",
     "@types/svg-path-parser": "1.1.3",
     "@types/svg2ttf": "5.0.1",
     "@types/svgicons2svgfont": "10.0.1",
