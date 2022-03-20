@@ -4688,5 +4688,19 @@
             <path d="m68 59v43" />
             <path d="m25 102h86" />
         </g>
+
+        <g id="釘419" transform="translate(-3829, 360)">
+            <path d="m52 12l-18 36" />
+            <path d="m42 32h67" />
+            <path d="m72 32v67l-21 -7" />
+        </g>
+
+        <g id="槌420" transform="translate(-3829, 600)">
+            <path d="m50 12l-18 36" />
+            <path d="m41 30h66" />
+            <path d="m42 47h59" />
+            <path d="m65 47l-25 50 27-9" />
+            <path d="m56 65l29 0-17 34 32 0-7-14" />
+        </g>
     </g>
 </svg>
