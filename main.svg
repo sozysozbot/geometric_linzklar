@@ -2108,20 +2108,20 @@
             <path d="m88 57h7a21 21 0 1 1 0 42" />
         </g>
 
-        <g id="胸106" transform="translate(-9, 1440)">
+        <g id="震106" transform="translate(-9, 1440)">
+            <path d="m43 60a25 25 0 1 1 50 0a25 25 0 1 1 -50 0" />
+            <path d="m68 110 v -100" />
+            <path d="m22 45 l 10 30 " />
+            <path d="m114 45 l -10 30 " />
+        </g>
+
+        <g id="胸107" transform="translate(-9, 1560)">
             <path d="m28 35h80" />
             <path d="m68 55v-40" />
             <path d="m68 55 44 44" />
             <path d="m68 55-44 44" />
             <path d="m32 45l15 15" />
             <path d="m104 45l-15 15" />
-        </g>
-
-        <g id="震107" transform="translate(-9, 1560)">
-            <path d="m43 60a25 25 0 1 1 50 0a25 25 0 1 1 -50 0" />
-            <path d="m68 110 v -100" />
-            <path d="m22 45 l 10 30 " />
-            <path d="m114 45 l -10 30 " />
         </g>
 
         <g id="広108" transform="translate(-9, 1800)">
