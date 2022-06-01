@@ -1,7 +1,7 @@
 @font-face {
     font-family: "geometric_linzklar";
-    src: url("./geometric_linzklar.ttf?7ff7ec6287512f6b7f72f9df27ad654c") format("truetype"),
-url("./geometric_linzklar.woff?7ff7ec6287512f6b7f72f9df27ad654c") format("woff");
+    src: url("./geometric_linzklar.ttf?ed7acdb36288ceb4c73b166fb70e392f") format("truetype"),
+url("./geometric_linzklar.woff?ed7acdb36288ceb4c73b166fb70e392f") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -432,9 +432,6 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-山:before {
     content: "\5c71";
 }
-.icon-岩:before {
-    content: "\5ca9";
-}
 .icon-島:before {
     content: "\5cf6";
 }
@@ -642,6 +639,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-榎:before {
     content: "\698e";
 }
+.icon-槌:before {
+    content: "\69cc";
+}
 .icon-槍:before {
     content: "\69cd";
 }
@@ -656,6 +656,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-機:before {
     content: "\6a5f";
+}
+.icon-檸:before {
+    content: "\6ab8";
 }
 .icon-欽:before {
     content: "\6b3d";
@@ -1160,6 +1163,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-金:before {
     content: "\91d1";
+}
+.icon-釘:before {
+    content: "\91d8";
 }
 .icon-針:before {
     content: "\91dd";
