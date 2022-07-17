@@ -1,7 +1,7 @@
 @font-face {
     font-family: "geometric_linzklar";
-    src: url("./geometric_linzklar.ttf?ed7acdb36288ceb4c73b166fb70e392f") format("truetype"),
-url("./geometric_linzklar.woff?ed7acdb36288ceb4c73b166fb70e392f") format("woff");
+    src: url("./geometric_linzklar.ttf?209b1d1eb4cad9bc5f0120cac213fabb") format("truetype"),
+url("./geometric_linzklar.woff?209b1d1eb4cad9bc5f0120cac213fabb") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
