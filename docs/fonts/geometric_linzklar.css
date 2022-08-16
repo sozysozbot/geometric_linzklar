@@ -1,7 +1,7 @@
 @font-face {
     font-family: "geometric_linzklar";
-    src: url("./geometric_linzklar.ttf?209b1d1eb4cad9bc5f0120cac213fabb") format("truetype"),
-url("./geometric_linzklar.woff?209b1d1eb4cad9bc5f0120cac213fabb") format("woff");
+    src: url("./geometric_linzklar.ttf?b3cabd3932a840aa265e88d8ff148560") format("truetype"),
+url("./geometric_linzklar.woff?b3cabd3932a840aa265e88d8ff148560") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -374,6 +374,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-如:before {
     content: "\5982";
+}
+.icon-妙:before {
+    content: "\5999";
 }
 .icon-始:before {
     content: "\59cb";
