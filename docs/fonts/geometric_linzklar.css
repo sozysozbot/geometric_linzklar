@@ -1,7 +1,7 @@
 @font-face {
     font-family: "geometric_linzklar";
-    src: url("./geometric_linzklar.ttf?b3cabd3932a840aa265e88d8ff148560") format("truetype"),
-url("./geometric_linzklar.woff?b3cabd3932a840aa265e88d8ff148560") format("woff");
+    src: url("./geometric_linzklar.ttf?47b1c4a5c46ab0bf83c0f4309693f962") format("truetype"),
+url("./geometric_linzklar.woff?47b1c4a5c46ab0bf83c0f4309693f962") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -287,6 +287,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-哇:before {
     content: "\54c7";
+}
+.icon-哦:before {
+    content: "\54e6";
 }
 .icon-哩:before {
     content: "\54e9";
