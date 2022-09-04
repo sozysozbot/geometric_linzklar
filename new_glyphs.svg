@@ -719,11 +719,12 @@
         </g>
 
         <g id="焼055" transform="translate(-9, 960)">
-             <path d="m13 45h50" />
+            <path d="m13 45h50" />
             <path d="m23 30 0 37a15 15 0 0 0 30 0l0-37" />
             <path d="m80 20l9 27" />
             <path d="m115 15l-30 90" />
             <path d="m74 57l46 46" />
         </g>
+
     </g>
 </svg>
