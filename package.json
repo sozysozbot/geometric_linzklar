@@ -6,7 +6,7 @@
     "canvas": "2.9.3",
     "fantasticon": "1.2.3",
     "fs-extra": "10.1.0",
-    "jsdom": "19.0.0",
+    "jsdom": "20.0.2",
     "oslllo-svg-fixer": "2.1.1",
     "svg-path-parser": "1.1.0"
   },
