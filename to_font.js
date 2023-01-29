@@ -1,7 +1,11 @@
 "use strict";
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
 }) : (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
@@ -35,7 +39,7 @@ const fs_extra = __importStar(require("fs-extra"));
         const svg_glyph = fs.readFileSync(svg_path, 'utf-8').replace("0 0 136 120", `0 0 600 ${600 / 136 * 120}`);
         fs.writeFileSync(svg_path, svg_glyph, 'utf-8');
     });
-    fantasticon_1.generateFonts({
+    (0, fantasticon_1.generateFonts)({
         inputDir: `./${fix_path}`,
         outputDir: `./${out_path}`,
         name: "geometric_linzklar",
@@ -44,6 +48,7 @@ const fs_extra = __importStar(require("fs-extra"));
             fantasticon_1.OtherAssetType.CSS,
             fantasticon_1.OtherAssetType.HTML,
             fantasticon_1.OtherAssetType.JSON,
+            /* OtherAssetType.TS */ // The TS asset is buggy; remove
         ],
         fontHeight: 480,
         codepoints: glyph_map
