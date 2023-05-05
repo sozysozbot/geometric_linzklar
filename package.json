@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "簡単な幾何学的図形だけで燐字をそこそこきれいに書きたい",
   "dependencies": {
-    "canvas": "2.11.0",
+    "canvas": "2.11.2",
     "fantasticon": "1.2.3",
     "fs-extra": "11.1.1",
     "jsdom": "22.0.0",
