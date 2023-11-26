@@ -20,7 +20,7 @@
     "@types/node": "20.10.0",
     "@types/svg-path-parser": "1.1.6",
     "@types/svg2ttf": "5.0.3",
-    "@types/svgicons2svgfont": "10.0.1",
+    "@types/svgicons2svgfont": "10.0.5",
     "@types/ttf2woff": "2.0.4"
   },
   "scripts": {
