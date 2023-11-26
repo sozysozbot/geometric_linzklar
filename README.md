@@ -88,3 +88,25 @@ node split.js new_glyphs.svg new_glyphs; node render.js new_glyphs new_glyphs.sv
 * [fantasticon](https://github.com/tancredi/fantasticon)
     - フォントをTTFとWOFFで吐いてくれるだけでなく、[グリフを一覧できるHTML](https://sozysozbot.github.io/geometric_linzklar/fonts/geometric_linzklar.html)まで出力してくれてとても便利。
     - ただし、なんか生成物のTypeScriptが2021年10月25日現在バグってる（出力コードポイントが漢字であることが原因だろうか？えーでもそうはならんくない？）ので、`assetTypes: [ OtherAssetType.CSS, OtherAssetType.HTML, OtherAssetType.JSON]` と指定して明確に TypeScript の生成を抑制してやる必要がある。 
+
+## 開発者のための注意
+
+package.json にある
+
+```json
+  "overrides": {
+    "fantasticon": {
+      "glob": "7.2.0"
+    }
+  }
+```
+
+は https://github.com/tancredi/fantasticon/issues/470 を避けるためのもの。
+
+以下のコマンドを実行していて No SVGs found というエラーに直面したら、
+
+```bash
+npm uninstall fantasticon && npm install fantasticon
+```
+
+をしてください。
