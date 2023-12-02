@@ -4905,5 +4905,13 @@
             <path d="m 93 27 l -23 69" />
             <path d="m 84 54 h 23 l -13 39 h 24 l -6 -18" />
         </g>
+
+        <g id="癒437" transform="translate(-4020, 720)">
+            <path d="m 50 32 l 32 -16" />
+            <path d="m 97 30 l -72 36" />
+            <path d="m 42 41 l 72 24" />
+            <path d="m46 64 a22 22 0 0 0 44 0" />
+            <path d="m68 60v46" />
+        </g>
     </g>
 </svg>

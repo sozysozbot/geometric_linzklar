@@ -765,9 +765,9 @@
         <g id="癒057" transform="translate(-200, 120)">
             <path d="m 47 32 l 32 -16" />
             <path d="m 94 30 l -72 36" />
-            <path d="m 39 41 l 72 18" />
+            <path d="m 39 41 l 72 24" />
             <path d="m46 64 a22 22 0 0 0 44 0" />
-            <path d="m68 56v50" />
+            <path d="m68 60v46" />
         </g>
     </g>
 </svg>
