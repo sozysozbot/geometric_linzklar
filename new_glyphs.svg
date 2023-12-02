@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1302px" height="1340px" version="1.1" viewBox="-19 -130 1302 1340" xmlns="http://www.w3.org/2000/svg">
+<svg width="1493px" height="1340px" version="1.1" viewBox="-210 -130 1493 1340" xmlns="http://www.w3.org/2000/svg">
+    <g id="column7" stroke-width="0" transform="translate(-200, -120)">
+        <path fill="#a00" d="m-10 -10h156v1340h-156" />
+        <path fill="#fff" d="m0 0h136v120h-136" />
+        <path fill="#ffa" d="m0 120h136v120h-136" />
+        <path fill="#faa" d="m0 240h136v120h-136" />
+        <path fill="#faf" d="m0 360h136v120h-136" />
+        <path fill="#aaf" d="m0 480h136v120h-136" />
+        <path fill="#fff" d="m0 600h136v120h-136" />
+        <path fill="#ffa" d="m0 720h136v120h-136" />
+        <path fill="#faa" d="m0 840h136v120h-136" />
+        <path fill="#faf" d="m0 960h136v120h-136" />
+        <path fill="#aaf" d="m0 1080h136v120h-136" />
+        <path fill="#fff" d="m0 1200h136v120h-136" />
+
+        <path fill="#aff" d="m10 10h116v100h-116" />
+        <path fill="#aff" d="m10 130h116v100h-116" />
+        <path fill="#aff" d="m10 250h116v100h-116" />
+        <path fill="#aff" d="m10 370h116v100h-116" />
+        <path fill="#aff" d="m10 490h116v100h-116" />
+        <path fill="#aff" d="m10 610h116v100h-116" />
+        <path fill="#aff" d="m10 730h116v100h-116" />
+        <path fill="#aff" d="m10 850h116v100h-116" />
+        <path fill="#aff" d="m10 970h116v100h-116" />
+        <path fill="#aff" d="m10 1090h116v100h-116" />
+        <path fill="#aff" d="m10 1210h116v100h-116" />
+    </g>
     <g id="column6" stroke-width="0" transform="translate(-9, -120)">
         <path fill="#a00" d="m-10 -10h156v1340h-156" />
         <path fill="#fff" d="m0 0h136v120h-136" />
@@ -726,5 +752,14 @@
             <path d="m74 57l46 46" />
         </g>
 
+        <g id="叮056" transform="translate(-200, 0)">
+            <path d="m 68 41 a 26 13 0 0 0 -52 0" /> 
+            <path d="m 12 62 h 61" /> 
+            <path d="m 42 41 v 42" />
+            <path d="m 21 62 a 21 21 90 1 1 42 0 a 21 21 90 1 1 -42 0" />
+            <path d="m 69 27 h 49" />
+            <path d="m 93 27 l -23 69" />
+            <path d="m 84 54 h 23 l -13 39 h 24 l -6 -18" />
+        </g>
     </g>
 </svg>

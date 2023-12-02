@@ -10,9 +10,9 @@
             <path d="m31 10v100"></path>
             <path d="m31 60l15 45"></path>
             <path d="m31 60l-15 45"></path>
-            <path d="m83 35l0 24a14 14 90 01-28 0l0-24"></path>
+            <path d="m83 35l0 24a14 14 0 01-28 0l0-24"></path>
             <path d="m69 15v90"></path>
-            <path d="m94 35l0 24a14 14 90 0028 0l0-24"></path>
+            <path d="m94 35l0 24a14 14 0 0028 0l0-24"></path>
             <path d="m108 15v90"></path>
         </g>
     </g>
