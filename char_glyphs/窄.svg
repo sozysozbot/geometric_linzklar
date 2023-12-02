@@ -5,7 +5,7 @@
     <g stroke="#000" stroke-width="10" fill="none">
         <g id="glyph">
             <path d="m115 53h-94"></path>
-            <path d="m96 53l0-6a28 28 90 00-56 0l0 6"></path>
+            <path d="m96 53l0-6a28 28 0 00-56 0l0 6"></path>
             <path d="m38 64l11 22"></path>
             <path d="m59 64l11 22"></path>
             <path d="m100 63l-18 36"></path>
