@@ -1,7 +1,7 @@
 @font-face {
     font-family: "geometric_linzklar";
-    src: url("./geometric_linzklar.ttf?9db39a140d1e3277a039d8554df68014") format("truetype"),
-url("./geometric_linzklar.woff?9db39a140d1e3277a039d8554df68014") format("woff");
+    src: url("./geometric_linzklar.ttf?81c50476587d4c90efa299ced2141042") format("truetype"),
+url("./geometric_linzklar.woff?81c50476587d4c90efa299ced2141042") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -225,6 +225,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-十:before {
     content: "\5341";
 }
+.icon-半:before {
+    content: "\534a";
+}
 .icon-南:before {
     content: "\5357";
 }
@@ -257,6 +260,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-叫:before {
     content: "\53eb";
+}
+.icon-叮:before {
+    content: "\53ee";
 }
 .icon-可:before {
     content: "\53ef";
@@ -591,6 +597,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-文:before {
     content: "\6587";
 }
+.icon-斥:before {
+    content: "\65a5";
+}
 .icon-斧:before {
     content: "\65a7";
 }
@@ -848,6 +857,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-疲:before {
     content: "\75b2";
+}
+.icon-癒:before {
+    content: "\7652";
 }
 .icon-白:before {
     content: "\767d";
