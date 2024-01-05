@@ -5005,5 +5005,13 @@
             <path d="m93 28l-22 66l18 -6" />
             <path d="m84 55h24l-14 42h25l-6-18" />
         </g>
+
+        <g id="遅447" transform="translate(-4020, 2160)">
+            <g transform="translate(0,-5)">
+                <path d="m13 53h49" />
+                <path d="m25 38 0 37a12 12 0 0 0 24 0l0-37" />
+            </g>
+            <path d="m 61 75 l 20 -60 M 89 103 h 13 a 16 32 0 0 0 0 -64 l -29 0 M 75 102 l 21 -63 M 67 57 l 55 42" />
+        </g>
     </g>
 </svg>
