@@ -4960,5 +4960,13 @@
             <path d="m66 82h46" />
             <path d="m60 100h58" />
         </g>
+
+        <g id="辣443" transform="translate(-4020, 1560)">
+            <path d="m15 37h50" />
+            <path d="m25 37 0 35a15 15 0 0 0 30 0l0-35" />
+            <path d="m77 20l9 27" />
+            <path d="m112 15l-30 90" />
+            <path d="m71 57l46 46" />
+        </g>
     </g>
 </svg>
