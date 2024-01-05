@@ -686,5 +686,16 @@
             <path d="m115 15l-30 90" />
             <path d="m74 57l46 46" />
         </g>
+
+        <g id="㹱052" transform="translate(-9, 600)">
+            <path d="m13 53h49" />
+            <path d="m25 38 0 37a12 12 0 0 0 24 0l0-37" />
+            <path d="m71 14l-14 28" />
+            <path d="m61 34h65" />
+            <path d="m59 67h67" />
+            <path d="m72 34v66" />
+            <path d="m92 34v66" />
+            <path d="m112 34v66" />
+        </g>
     </g>
 </svg>
