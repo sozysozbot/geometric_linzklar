@@ -4994,5 +4994,16 @@
             <path d="m88 52 v 52 " />
             <path d="m69 60 v 7 a 20 20 90 0 0 40 0 v -7" />
         </g>
+
+        <g id="匁446" transform="translate(-4020, 2040)">
+            <path d="m15 27h48" />
+            <path d="m20 52h38" />
+            <path d="m15 77h48" />
+            <path d="m39 12v95" />
+
+            <path d="m67 28h52" />
+            <path d="m93 28l-22 66l18 -6" />
+            <path d="m84 55h24l-14 42h25l-6-18" />
+        </g>
     </g>
 </svg>
