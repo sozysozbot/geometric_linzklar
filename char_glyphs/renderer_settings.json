@@ -1,9 +1,14 @@
 {
     "viewBox_max_x": 1283,
     "viewBox_min_y": -130,
-    "column_format": " **** **** **** **** ",
+    "column_format": " **** **** **** **** **** ",
     "outermost_border_color": "#a00",
     "border_colors": [
+        "#fff",
+        "#ffa",
+        "#faa",
+        "#faf",
+        "#aaf",
         "#fff",
         "#ffa",
         "#faa",
