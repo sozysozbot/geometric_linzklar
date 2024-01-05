@@ -4981,5 +4981,18 @@
             <path d="m114 32v60" />
             <path d="m71  92h55" />
         </g>
+
+        <g id="招445" transform="translate(-4020, 1920)">
+            <path d="m14 39h 40" />
+            <path d="m34 56v-36" />
+            <path d="m34 56 -14 42" />
+            <path d="m34 56  14 42" />
+            <path d="m55 25 h 67 " />
+            <path d="m71 25 v 27 " />
+            <path d="m106 25 v 27 " />
+            <path d="m55 52 h 67 " />
+            <path d="m88 52 v 52 " />
+            <path d="m69 60 v 7 a 20 20 90 0 0 40 0 v -7" />
+        </g>
     </g>
 </svg>
