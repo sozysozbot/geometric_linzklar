@@ -4948,5 +4948,17 @@
             <path d="m55 67l-14 7" />
             <path d="m81 67l14 7" />
         </g>
+
+        <g id="塩442" transform="translate(-4020, 1440)">
+            <path d="m21 20l9 27" />
+            <path d="m53 15l-30 90" />
+            <path d="m18 65l36 36" />
+            <path d="m61 71l18-54" />
+            <path d="m83 71l-13-26" />
+            <path d="m93 72l18-54" />
+            <path d="m115 71l-13-26" />
+            <path d="m66 82h46" />
+            <path d="m60 100h58" />
+        </g>
     </g>
 </svg>
