@@ -4913,5 +4913,26 @@
             <path d="m46 64 a22 22 0 0 0 44 0" />
             <path d="m68 60v46" />
         </g>
+
+        <g id="鹽438" transform="translate(-4020, 840)">
+            <path d="m15 47l36-18" />
+            <path d="m27 41v45l20-10" />
+            <path d="m52 91l-12-36" />
+            <path d="m59 71l18-54" />
+            <path d="m81 71l-13-26" />
+            <path d="m91 72l18-54" />
+            <path d="m113 71l-13-26" />
+            <path d="m64 82h46" />
+            <path d="m58 100h58" />
+        </g>
+
+        <g id="田439" transform="translate(-4020, 960)">
+            <path d="m21 60 a46 46 0 0 0 92 0 a46 46 0 0 0 -92 0" />
+            <path d="m68 25v63l-14-7" />
+            <path d="m55 50l-14-7" />
+            <path d="m81 50l14-7" />
+            <path d="m55 67l-14 7" />
+            <path d="m81 67l14 7" />
+        </g>
     </g>
 </svg>
