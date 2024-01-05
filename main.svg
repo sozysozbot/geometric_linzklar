@@ -4897,8 +4897,8 @@
         </g>
 
         <g id="叮436" transform="translate(-4020, 600)">
-            <path d="m 68 41 a 26 13 0 0 0 -52 0" /> 
-            <path d="m 12 62 h 61" /> 
+            <path d="m 68 41 a 26 13 0 0 0 -52 0" />
+            <path d="m 12 62 h 61" />
             <path d="m 42 41 v 42" />
             <path d="m 21 62 a 21 21 0 1 1 42 0 a 21 21 0 1 1 -42 0" />
             <path d="m 69 27 h 49" />
@@ -4967,6 +4967,19 @@
             <path d="m77 20l9 27" />
             <path d="m112 15l-30 90" />
             <path d="m71 57l46 46" />
+        </g>
+
+        <g id="麺444" transform="translate(-4020, 1800)">
+            <path d="m39 12v90l-12-6" />
+            <path d="m26 45l-12-12" />
+            <path d="m52 45l12-12" />
+            <path d="m26 70l-12 12" />
+            <path d="m52 70l12 12" />
+
+            <path d="m71  32h55" />
+            <path d="m84  32v60" />
+            <path d="m114 32v60" />
+            <path d="m71  92h55" />
         </g>
     </g>
 </svg>

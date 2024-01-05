@@ -4,8 +4,8 @@
     <path fill="#aff" d="m10 10 h116 v 100 h-116 z" />
     <g stroke="#000" stroke-width="10" fill="none">
         <g id="glyph">
-            <path d="m 68 41 a 26 13 0 0 0 -52 0"></path> 
-            <path d="m 12 62 h 61"></path> 
+            <path d="m 68 41 a 26 13 0 0 0 -52 0"></path>
+            <path d="m 12 62 h 61"></path>
             <path d="m 42 41 v 42"></path>
             <path d="m 21 62 a 21 21 0 1 1 42 0 a 21 21 0 1 1 -42 0"></path>
             <path d="m 69 27 h 49"></path>
