@@ -1,7 +1,7 @@
 @font-face {
     font-family: "geometric_linzklar";
-    src: url("./geometric_linzklar.ttf?81c50476587d4c90efa299ced2141042") format("truetype"),
-url("./geometric_linzklar.woff?81c50476587d4c90efa299ced2141042") format("woff");
+    src: url("./geometric_linzklar.ttf?5de3c0b9f0153d5350287f1d3e527a34") format("truetype"),
+url("./geometric_linzklar.woff?5de3c0b9f0153d5350287f1d3e527a34") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -852,6 +852,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-産:before {
     content: "\7523";
 }
+.icon-田:before {
+    content: "\7530";
+}
 .icon-男:before {
     content: "\7537";
 }
@@ -1316,6 +1319,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-鶏:before {
     content: "\9d8f";
+}
+.icon-鹽:before {
+    content: "\9e7d";
 }
 .icon-麗:before {
     content: "\9e97";
