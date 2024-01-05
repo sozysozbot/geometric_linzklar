@@ -5013,5 +5013,24 @@
             </g>
             <path d="m 61 75 l 20 -60 M 89 103 h 13 a 16 32 0 0 0 0 -64 l -29 0 M 75 102 l 21 -63 M 67 57 l 55 42" />
         </g>
+
+        <g id="渋448" transform="translate(-3065, 1200)">
+            <path d="m28 20 h 82 " />
+            <path d="m40 26 l 9 18 " />
+            <path d="m60 26 l 9 18 " />
+            <path d="m83 55 l 14 -28 " />
+            <path d="m28 55 h 82 " />
+            <path d="m18 70 h 100 " />
+            <path d="m38 70 l 0 17 a 30 15 0 0 0 60 0 l 0 -17" />
+        </g>
+
+        <g id="苦449" transform="translate(-3065, 1320)">
+            <path d="m40 14l9 27" />
+            <path d="m60 14l9 27" />
+            <path d="m83 55l14-42" />
+            <path d="m23 55h92" />
+            <path d="m18 72 h 100" />
+            <path d="m38 72 l 0 17 a 30 15 0 0 0 60 0 l 0 -17" />
+        </g>
     </g>
 </svg>
