@@ -4714,7 +4714,7 @@
             <path d="m82 47l-14 28" />
         </g>
 
-        <g id="　415" transform="translate(-3638, 2160)">
+        <g id="　415" transform="translate(-3638, 2160)">
         </g>
 
         <g id="！416" transform="translate(-3829, 0)">
@@ -4914,7 +4914,21 @@
             <path d="m68 60v46" />
         </g>
 
-        <g id="鹽438" transform="translate(-4020, 840)">
+        <g id="斥438" transform="translate(-4020, 840)">
+            <path d="m106 101v-76h-76v76" />
+            <path d="m48 67 a20 20 0 0 0 40 0a20 20 0 0 0 -40 0" />
+        </g>
+
+        <g id="半439" transform="translate(-4020, 960)">
+            <path d="m27 35v51" />
+            <path d="m15 92l50-25" />
+            <path d="m52 16v90" />
+            <path d="m81 35v51" />
+            <path d="m69 92l50-25" />
+            <path d="m106 16v90" />
+        </g>
+
+        <g id="鹽440" transform="translate(-4020, 1200)">
             <path d="m15 47l36-18" />
             <path d="m27 41v45l20-10" />
             <path d="m52 91l-12-36" />
@@ -4926,7 +4940,7 @@
             <path d="m58 100h58" />
         </g>
 
-        <g id="田439" transform="translate(-4020, 960)">
+        <g id="田441" transform="translate(-4020, 1320)">
             <path d="m21 60 a46 46 0 0 0 92 0 a46 46 0 0 0 -92 0" />
             <path d="m68 25v63l-14-7" />
             <path d="m55 50l-14-7" />

@@ -32,6 +32,8 @@
 
 ## コマンド
 
+npm install が既に走っていることを前提としている。
+
 ```
 node split.js; node render.js
 node split.js new_glyphs.svg new_glyphs; node render.js new_glyphs new_glyphs.svg
