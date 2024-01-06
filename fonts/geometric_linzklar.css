@@ -1,7 +1,7 @@
 @font-face {
     font-family: "geometric_linzklar";
-    src: url("./geometric_linzklar.ttf?5de3c0b9f0153d5350287f1d3e527a34") format("truetype"),
-url("./geometric_linzklar.woff?5de3c0b9f0153d5350287f1d3e527a34") format("woff");
+    src: url("./geometric_linzklar.ttf?e087f5aa1e574f71ef3d64361e790d35") format("truetype"),
+url("./geometric_linzklar.woff?e087f5aa1e574f71ef3d64361e790d35") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -216,6 +216,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-勿:before {
     content: "\52ff";
 }
+.icon-匁:before {
+    content: "\5301";
+}
 .icon-包:before {
     content: "\5305";
 }
@@ -350,6 +353,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-型:before {
     content: "\578b";
+}
+.icon-塩:before {
+    content: "\5869";
 }
 .icon-増:before {
     content: "\5897";
@@ -573,6 +579,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-抗:before {
     content: "\6297";
 }
+.icon-招:before {
+    content: "\62db";
+}
 .icon-振:before {
     content: "\632f";
 }
@@ -767,6 +776,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-清:before {
     content: "\6e05";
+}
+.icon-渋:before {
+    content: "\6e0b";
 }
 .icon-湿:before {
     content: "\6e7f";
@@ -1071,6 +1083,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-花:before {
     content: "\82b1";
 }
+.icon-苦:before {
+    content: "\82e6";
+}
 .icon-茶:before {
     content: "\8336";
 }
@@ -1185,6 +1200,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-輪:before {
     content: "\8f2a";
 }
+.icon-辣:before {
+    content: "\8fa3";
+}
 .icon-近:before {
     content: "\8fd1";
 }
@@ -1196,6 +1214,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-連:before {
     content: "\9023";
+}
+.icon-遅:before {
+    content: "\9045";
 }
 .icon-遊:before {
     content: "\904a";
@@ -1325,6 +1346,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-麗:before {
     content: "\9e97";
+}
+.icon-麺:before {
+    content: "\9eba";
 }
 .icon-黍:before {
     content: "\9ecd";
