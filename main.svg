@@ -4992,7 +4992,7 @@
             <path d="m106 25 v 27 " />
             <path d="m55 52 h 67 " />
             <path d="m88 52 v 52 " />
-            <path d="m69 60 v 7 a 20 20 90 0 0 40 0 v -7" />
+            <path d="m69 60 v 7 a 20 20 0 0 0 40 0 v -7" />
         </g>
 
         <g id="匁446" transform="translate(-3065, 840)">
@@ -5007,11 +5007,12 @@
         </g>
 
         <g id="遅447" transform="translate(-3065, 960)">
-            <g transform="translate(0,-5)">
-                <path d="m13 53h49" />
-                <path d="m25 38 0 37a12 12 0 0 0 24 0l0-37" />
-            </g>
-            <path d="m 61 75 l 20 -60 M 89 103 h 13 a 16 32 0 0 0 0 -64 l -29 0 M 75 102 l 21 -63 M 67 57 l 55 42" />
+            <path d="m13 48h49" />
+            <path d="m25 33 0 37a12 12 0 0 0 24 0l0-37" />
+            <path d="m61 75 l 20 -60 " />
+            <path d="m 89 103 h 13 a 16 32 0 0 0 0 -64 l -29 0 " />
+            <path d="m 75 102 l 21 -63 " />
+            <path d="m65 63 l 58 29" />
         </g>
 
         <g id="渋448" transform="translate(-3065, 1200)">

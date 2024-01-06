@@ -13,7 +13,7 @@
             <path d="m106 25 v 27 "></path>
             <path d="m55 52 h 67 "></path>
             <path d="m88 52 v 52 "></path>
-            <path d="m69 60 v 7 a 20 20 90 0 0 40 0 v -7"></path>
+            <path d="m69 60 v 7 a 20 20 0 0 0 40 0 v -7"></path>
         </g>
     </g>
 </svg>
