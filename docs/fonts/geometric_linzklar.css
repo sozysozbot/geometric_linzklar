@@ -1,7 +1,7 @@
 @font-face {
     font-family: "geometric_linzklar";
-    src: url("./geometric_linzklar.ttf?e087f5aa1e574f71ef3d64361e790d35") format("truetype"),
-url("./geometric_linzklar.woff?e087f5aa1e574f71ef3d64361e790d35") format("woff");
+    src: url("./geometric_linzklar.ttf?35ec1c608bcd6336ceb5ef81bb85434e") format("truetype"),
+url("./geometric_linzklar.woff?35ec1c608bcd6336ceb5ef81bb85434e") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -281,9 +281,6 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-名:before {
     content: "\540d";
-}
-.icon-后:before {
-    content: "\540e";
 }
 .icon-吏:before {
     content: "\540f";
@@ -1172,6 +1169,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-足:before {
     content: "\8db3";
+}
+.icon-踵:before {
+    content: "\8e35";
 }
 .icon-躍:before {
     content: "\8e8d";
