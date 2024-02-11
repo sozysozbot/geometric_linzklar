@@ -1,4 +1,4 @@
-import { generateFonts, FontAssetType, OtherAssetType } from 'fantasticon';
+import { generateFonts, FontAssetType, OtherAssetType } from '@twbs/fantasticon';
 import * as fs from 'fs';
 import * as fs_extra from 'fs-extra'
 (async function() {

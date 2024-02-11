@@ -3,17 +3,12 @@
   "version": "0.1.0",
   "description": "簡単な幾何学的図形だけで燐字をそこそこきれいに書きたい",
   "dependencies": {
+    "@twbs/fantasticon": "^2.7.2",
     "canvas": "2.11.2",
-    "fantasticon": "^2.0.0",
     "fs-extra": "11.1.1",
     "jsdom": "22.1.0",
     "oslllo-svg-fixer": "2.2.0",
     "svg-path-parser": "1.1.0"
-  },
-  "overrides": {
-    "fantasticon": {
-      "glob": "7.2.0"
-    }
   },
   "devDependencies": {
     "@types/fs-extra": "11.0.4",
