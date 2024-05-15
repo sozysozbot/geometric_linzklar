@@ -1,8 +1,8 @@
 @font-face {
   font-display: block;
   font-family: "geometric_linzklar";
-  src: url("./geometric_linzklar.ttf?e24d9be09d957c6951755f8051cbca07") format("truetype"),
-url("./geometric_linzklar.woff?e24d9be09d957c6951755f8051cbca07") format("woff");
+  src: url("./geometric_linzklar.ttf?483202d85ef9284afcf59b9ba2434c52") format("truetype"),
+url("./geometric_linzklar.woff?483202d85ef9284afcf59b9ba2434c52") format("woff");
 }
 
 i[class^="icon-"]::before, i[class*=" icon-"]::before {
@@ -108,6 +108,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-何::before {
   content: "\4f55";
+}
+.icon-佞::before {
+  content: "\4f5e";
 }
 .icon-佰::before {
   content: "\4f70";
@@ -586,11 +589,17 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-挽::before {
   content: "\633d";
 }
+.icon-捧::before {
+  content: "\6367";
+}
 .icon-搾::before {
   content: "\643e";
 }
 .icon-撃::before {
   content: "\6483";
+}
+.icon-支::before {
+  content: "\652f";
 }
 .icon-故::before {
   content: "\6545";
@@ -669,6 +678,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-械::before {
   content: "\68b0";
+}
+.icon-棆::before {
+  content: "\68c6";
 }
 .icon-棉::before {
   content: "\68c9";
@@ -1138,6 +1150,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-論::before {
   content: "\8ad6";
 }
+.icon-謗::before {
+  content: "\8b17";
+}
 .icon-謝::before {
   content: "\8b1d";
 }
@@ -1162,8 +1177,14 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-貧::before {
   content: "\8ca7";
 }
+.icon-賢::before {
+  content: "\8ce2";
+}
 .icon-質::before {
   content: "\8cea";
+}
+.icon-贄::before {
+  content: "\8d04";
 }
 .icon-赤::before {
   content: "\8d64";
@@ -1209,6 +1230,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-迷::before {
   content: "\8ff7";
+}
+.icon-逆::before {
+  content: "\9006";
 }
 .icon-通::before {
   content: "\901a";
@@ -1288,6 +1312,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-雪::before {
   content: "\96ea";
 }
+.icon-雷::before {
+  content: "\96f7";
+}
 .icon-震::before {
   content: "\9707";
 }
@@ -1324,6 +1351,12 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-飛::before {
   content: "\98db";
 }
+.icon-飢::before {
+  content: "\98e2";
+}
+.icon-餅::before {
+  content: "\9905";
+}
 .icon-馬::before {
   content: "\99ac";
 }
@@ -1347,6 +1380,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-麗::before {
   content: "\9e97";
+}
+.icon-麦::before {
+  content: "\9ea6";
 }
 .icon-麺::before {
   content: "\9eba";
