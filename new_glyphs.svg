@@ -752,5 +752,39 @@
             <path d="m58 75h40" />
             <path d="m58 75 a20 20 0 0 0 40 0a20 20 0 0 0 -40 0" />
         </g>
+
+        <g id="佞057" transform="translate(-200, 120)">
+            <path d="m97 20l-51 17a 32 64 0 0 1 -32 64" />
+            <path d="m107 57h-54" />
+            <path d="m80 57 -25 50" />
+            <path d="m80 57v-16" />
+            <path d="m80 57 25 50" />
+        </g>
+
+
+        <g id="贄058" transform="translate(-200, 240)">
+            <path d="m 16 106 l 29 -88 h 41 l 0 70 a 18 18 90 0 0 36 0 l 0 -18 " />
+            <path d="m 45 44 a 16 16 90 0 0 32 0 a 16 16 90 0 0 -32 0 " />
+            <path d="m 75 64 v 7 a 14 14 90 0 1 -28 0 l 0 -7 " />
+            <path d="m 61 60 v 44" />
+        </g>
+
+        <g id="賢059" transform="translate(-200, 360)">
+            <path d="m68 10 v23" />
+            <path d="m22 33 92 0" />
+            <path d="m10 74h 54" />
+            <path d="m37 74v-32" />
+            <path d="m22 60l-4 -12" />
+            <path d="m52 60l 4 -12" />
+            <path d="m19 108 17-34" />
+            <path d="m55 108-17-34" />
+            <path d="m126 74h-54" />
+            <path d="m81 108 17-34" />
+            <path d="m99 74v-32" />
+            <path d="m114 60l 4 -12" />
+            <path d="m84 60l -4 -12" />
+            <path d="m117 108-17-34" />
+        </g>
+
     </g>
 </svg>
