@@ -1,8 +1,8 @@
 @font-face {
   font-display: block;
   font-family: "geometric_linzklar";
-  src: url("./geometric_linzklar.ttf?db0b566dd219a212029750a27b040321") format("truetype"),
-url("./geometric_linzklar.woff?db0b566dd219a212029750a27b040321") format("woff");
+  src: url("./geometric_linzklar.ttf?758c1d816c20146e5104814b80155027") format("truetype"),
+url("./geometric_linzklar.woff?758c1d816c20146e5104814b80155027") format("woff");
 }
 
 i[class^="icon-"]::before, i[class*=" icon-"]::before {
@@ -138,6 +138,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-傾::before {
   content: "\50be";
+}
+.icon-像::before {
+  content: "\50cf";
 }
 .icon-僚::before {
   content: "\50da";
@@ -634,6 +637,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-日::before {
   content: "\65e5";
 }
+.icon-旱::before {
+  content: "\65f1";
+}
 .icon-星::before {
   content: "\661f";
 }
@@ -736,6 +742,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-歪::before {
   content: "\6b6a";
 }
+.icon-残::before {
+  content: "\6b8b";
+}
 .icon-母::before {
   content: "\6bcd";
 }
@@ -753,6 +762,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-水::before {
   content: "\6c34";
+}
+.icon-氾::before {
+  content: "\6c3e";
 }
 .icon-汝::before {
   content: "\6c5d";
@@ -1086,6 +1098,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-脂::before {
   content: "\8102";
+}
+.icon-腰::before {
+  content: "\8170";
 }
 .icon-腹::before {
   content: "\8179";
