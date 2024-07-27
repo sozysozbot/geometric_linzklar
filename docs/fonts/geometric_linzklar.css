@@ -1,8 +1,8 @@
 @font-face {
   font-display: block;
   font-family: "geometric_linzklar";
-  src: url("./geometric_linzklar.ttf?483202d85ef9284afcf59b9ba2434c52") format("truetype"),
-url("./geometric_linzklar.woff?483202d85ef9284afcf59b9ba2434c52") format("woff");
+  src: url("./geometric_linzklar.ttf?db0b566dd219a212029750a27b040321") format("truetype"),
+url("./geometric_linzklar.woff?db0b566dd219a212029750a27b040321") format("woff");
 }
 
 i[class^="icon-"]::before, i[class*=" icon-"]::before {
@@ -393,6 +393,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-失::before {
   content: "\5931";
+}
+.icon-奉::before {
+  content: "\5949";
 }
 .icon-奮::before {
   content: "\596e";
@@ -904,6 +907,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-直::before {
   content: "\76f4";
 }
+.icon-眉::before {
+  content: "\7709";
+}
 .icon-真::before {
   content: "\771f";
 }
@@ -1020,6 +1026,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-綿::before {
   content: "\7dbf";
+}
+.icon-緑::before {
+  content: "\7dd1";
 }
 .icon-縦::before {
   content: "\7e26";
@@ -1374,6 +1383,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-鶏::before {
   content: "\9d8f";
+}
+.icon-鹵::before {
+  content: "\9e75";
 }
 .icon-鹽::before {
   content: "\9e7d";
