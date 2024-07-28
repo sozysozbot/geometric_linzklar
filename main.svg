@@ -5270,5 +5270,30 @@
             <path d="m 54 63 l 30 -30 " />
             <path d="m 84 53 l -30 -10" />
         </g>
+
+        <g id="虹471" transform="translate(-3256, 1560)">
+            <path d="m112 39 a 44 22 0 0 0 -88 0" />
+            <path d="m30 103 l 22 -66 h 30 l 0 48 a 18 18 0 0 0 36 0 l 0 -13" />
+        </g>
+
+        <g id="鍬472" transform="translate(-3256, 1800)">
+            <path d="m40 77h38a25 25 0 0 0 0-50h-38" />
+            <path d="m20 52h102" />
+            <path d="m68 10l0 100" />
+        </g>
+
+        <g id="土473" transform="translate(-3256, 1920)">
+            <path d="m72 10v79l-18-6" />
+            <path d="m54 44l-18-18" />
+            <path d="m89 44l18-18" />
+            <path d="m54 58l-18 18" />
+            <path d="m89 58l18 18" />
+            <path d="m31 104h83" />
+        </g>
+
+        <g id="節474" transform="translate(-3256, 2040)">
+            <path d="m57 20l-20 40l20 40" />
+            <path d="m92 20l-20 40l20 40" />
+        </g>
     </g>
 </svg>

@@ -1,8 +1,8 @@
 @font-face {
   font-display: block;
   font-family: "geometric_linzklar";
-  src: url("./geometric_linzklar.ttf?758c1d816c20146e5104814b80155027") format("truetype"),
-url("./geometric_linzklar.woff?758c1d816c20146e5104814b80155027") format("woff");
+  src: url("./geometric_linzklar.ttf?5a89b6ab6afe6a794f8a7a8d6a005a4c") format("truetype"),
+url("./geometric_linzklar.woff?5a89b6ab6afe6a794f8a7a8d6a005a4c") format("woff");
 }
 
 i[class^="icon-"]::before, i[class*=" icon-"]::before {
@@ -345,6 +345,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-国::before {
   content: "\56fd";
+}
+.icon-土::before {
+  content: "\571f";
 }
 .icon-圧::before {
   content: "\5727";
@@ -1012,6 +1015,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-箱::before {
   content: "\7bb1";
 }
+.icon-節::before {
+  content: "\7bc0";
+}
 .icon-米::before {
   content: "\7c73";
 }
@@ -1134,6 +1140,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-虫::before {
   content: "\866b";
+}
+.icon-虹::before {
+  content: "\8679";
 }
 .icon-蛋::before {
   content: "\86cb";
@@ -1299,6 +1308,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-鍋::before {
   content: "\934b";
+}
+.icon-鍬::before {
+  content: "\936c";
 }
 .icon-鎖::before {
   content: "\9396";
