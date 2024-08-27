@@ -1,8 +1,8 @@
 @font-face {
   font-display: block;
   font-family: "geometric_linzklar";
-  src: url("./geometric_linzklar.ttf?5a89b6ab6afe6a794f8a7a8d6a005a4c") format("truetype"),
-url("./geometric_linzklar.woff?5a89b6ab6afe6a794f8a7a8d6a005a4c") format("woff");
+  src: url("./geometric_linzklar.ttf?f56cd05aabe61a455b93d9883da82ad4") format("truetype"),
+url("./geometric_linzklar.woff?f56cd05aabe61a455b93d9883da82ad4") format("woff");
 }
 
 i[class^="icon-"]::before, i[class*=" icon-"]::before {
@@ -1200,6 +1200,12 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-豊::before {
   content: "\8c4a";
+}
+.icon-豕::before {
+  content: "\8c55";
+}
+.icon-豚::before {
+  content: "\8c5a";
 }
 .icon-貓::before {
   content: "\8c93";
