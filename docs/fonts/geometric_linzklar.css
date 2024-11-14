@@ -1,8 +1,8 @@
 @font-face {
   font-display: block;
   font-family: "geometric_linzklar";
-  src: url("./geometric_linzklar.ttf?2ee3a986793e39d86901bb1924eca97e") format("truetype"),
-url("./geometric_linzklar.woff?2ee3a986793e39d86901bb1924eca97e") format("woff");
+  src: url("./geometric_linzklar.ttf?cede619700d20f18bc1f458b37bd79ef") format("truetype"),
+url("./geometric_linzklar.woff?cede619700d20f18bc1f458b37bd79ef") format("woff");
 }
 
 i[class^="icon-"]::before, i[class*=" icon-"]::before {
@@ -720,6 +720,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-橋::before {
   content: "\6a4b";
+}
+.icon-橘::before {
+  content: "\6a58";
 }
 .icon-機::before {
   content: "\6a5f";

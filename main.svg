@@ -5324,5 +5324,21 @@
             <path d="m73  104l19-38" />
             <path d="m109 104l-24-24" />
         </g>
+
+        <g id="橘478" transform="translate(-3256, 2640)">
+            <path d="m23 45l-7-21" />
+            <path d="m38 45l7-21" />
+            <path d="m11 60h38" />
+            <path d="m31 10v100" />
+            <path d="m31 60l15 45" />
+            <path d="m31 60l-15 45" />
+            <path d="m52 33h28" />
+            <path d="m52 60h28" />
+            <path d="m67 33v64" />
+            <path d="m91 24h32" />
+            <path d="m85 42l10-30" />
+            <path d="m117 45l0 20a13 13 0 01-26 0l0-20" />
+            <path d="m104 24v55a13 26 0 01-13 26" />
+        </g>
     </g>
 </svg>
