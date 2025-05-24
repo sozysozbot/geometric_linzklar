@@ -5417,5 +5417,19 @@
             <path d="m51 80v23l32-16" />
             <path d="m74 78l25 25" />
         </g>
+
+        <g id="怯481" transform="translate(-3447, 120)">
+            <path d="m25 45 -10 -20" />
+            <path d="m43 45 10 -20" />
+            <path d="m10 60h48" />
+            <path d="m34 60v-50" />
+            <path d="m34 60 15 45" />
+            <path d="m34 60 -15 45" />
+            <path d="m68 37a22 22 0 0044 0a22 22 0 00-44 0" />
+            <path d="m68 37h44" />
+            <path d="m62 73h56 " />
+            <path d="m90 73v37 " />
+            <path d="m54 91h72" />
+        </g>
     </g>
 </svg>
