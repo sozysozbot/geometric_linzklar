@@ -5431,5 +5431,12 @@
             <path d="m90 73v37 " />
             <path d="m54 91h72" />
         </g>
+
+        <g id="侽482" transform="translate(-3447, 240)">
+            <path d="m30 32h76" />
+            <path d="m30 101a38 76 0 0038-76l0-10" />
+            <path d="m104 97l-70-35" />
+            <path d="m96 73l -27 27" />
+        </g>
     </g>
 </svg>
