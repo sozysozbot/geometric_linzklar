@@ -1,8 +1,8 @@
 @font-face {
   font-display: block;
   font-family: "geometric_linzklar";
-  src: url("./geometric_linzklar.ttf?cede619700d20f18bc1f458b37bd79ef") format("truetype"),
-url("./geometric_linzklar.woff?cede619700d20f18bc1f458b37bd79ef") format("woff");
+  src: url("./geometric_linzklar.ttf?14ef9ca9993298b98fab7d02d0d01f7b") format("truetype"),
+url("./geometric_linzklar.woff?14ef9ca9993298b98fab7d02d0d01f7b") format("woff");
 }
 
 i[class^="icon-"]::before, i[class*=" icon-"]::before {
@@ -118,6 +118,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-使::before {
   content: "\4f7f";
 }
+.icon-侽::before {
+  content: "\4fbd";
+}
 .icon-俐::before {
   content: "\4fd0";
 }
@@ -183,6 +186,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-冬::before {
   content: "\51ac";
+}
+.icon-冶::before {
+  content: "\51b6";
 }
 .icon-処::before {
   content: "\51e6";
@@ -559,6 +565,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-急::before {
   content: "\6025";
 }
+.icon-怯::before {
+  content: "\602f";
+}
 .icon-恒::before {
   content: "\6052";
 }
@@ -868,6 +877,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-猫::before {
   content: "\732b";
 }
+.icon-猿::before {
+  content: "\733f";
+}
 .icon-獣::before {
   content: "\7363";
 }
@@ -948,6 +960,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-硬::before {
   content: "\786c";
+}
+.icon-磨::before {
+  content: "\78e8";
 }
 .icon-祖::before {
   content: "\7956";
