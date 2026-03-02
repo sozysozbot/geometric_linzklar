@@ -5452,5 +5452,13 @@
             <path d="m 68 68 h 7 a 14 14 0 1 1 0 28 h -14 a 14 14 0 1 1 0 -28 h 7" />
             <path d="m 68 22 v 88" />
         </g>
+
+        <g id="壺485" transform="translate(-3447, 720)">
+            <path d="m 53 18 v 67 l -20 -10" />
+            <path d="m 18 65 l 50 -25" />
+            <path d="m 86 18 v 78" />
+            <path d="m 115 76 l -29 -29" />
+            <path d="m 15 96 h 106" />
+        </g>
     </g>
 </svg>
