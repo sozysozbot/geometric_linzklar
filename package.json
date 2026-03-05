@@ -7,7 +7,7 @@
     "canvas": "2.11.2",
     "fs-extra": "11.3.3",
     "jsdom": "25.0.1",
-    "oslllo-svg-fixer": "5.0.0",
+    "oslllo-svg-fixer": "6.0.1",
     "svg-path-parser": "1.1.0"
   },
   "devDependencies": {
