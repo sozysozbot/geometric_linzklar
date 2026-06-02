@@ -1,8 +1,8 @@
 @font-face {
   font-display: block;
   font-family: "geometric_linzklar";
-  src: url("./geometric_linzklar.ttf?14ef9ca9993298b98fab7d02d0d01f7b") format("truetype"),
-url("./geometric_linzklar.woff?14ef9ca9993298b98fab7d02d0d01f7b") format("woff");
+  src: url("./geometric_linzklar.ttf?7d658bcc0cc263d79d4e74d887ccb18e") format("truetype"),
+url("./geometric_linzklar.woff?7d658bcc0cc263d79d4e74d887ccb18e") format("woff");
 }
 
 i[class^="icon-"]::before, i[class*=" icon-"]::before {
@@ -384,6 +384,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-声::before {
   content: "\58f0";
+}
+.icon-壺::before {
+  content: "\58fa";
 }
 .icon-夏::before {
   content: "\590f";
@@ -934,6 +937,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-皷::before {
   content: "\76b7";
 }
+.icon-皿::before {
+  content: "\76bf";
+}
 .icon-目::before {
   content: "\76ee";
 }
@@ -1140,6 +1146,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-色::before {
   content: "\8272";
+}
+.icon-芋::before {
+  content: "\828b";
 }
 .icon-花::before {
   content: "\82b1";

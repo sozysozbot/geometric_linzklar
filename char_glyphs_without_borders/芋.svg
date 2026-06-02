@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136mm" height="120mm" version="1.1" viewBox="0 0 136 120" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="#000" stroke-width="10" fill="none">
+        <g id="glyph">
+            <path d="m 26 22 h 84"></path>
+            <path d="m 68 58 h -5 a 12 12 0 1 1 0 -24 h 10 a 12 12 0 1 1 0 24 h -5"></path>
+            <path d="m 68 68 h 7 a 14 14 0 1 1 0 28 h -14 a 14 14 0 1 1 0 -28 h 7"></path>
+            <path d="m 68 22 v 88"></path>
+        </g>
+    </g>
+</svg>
