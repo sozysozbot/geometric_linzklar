@@ -5,7 +5,7 @@
   "dependencies": {
     "@twbs/fantasticon": "^3.0.0",
     "canvas": "^3.2.3",
-    "fs-extra": "11.3.3",
+    "fs-extra": "11.3.5",
     "jsdom": "^29.1.1",
     "oslllo-svg-fixer": "^6.0.1",
     "svg-path-parser": "1.1.0"
