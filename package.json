@@ -6,7 +6,7 @@
     "@twbs/fantasticon": "^3.0.0",
     "canvas": "^3.2.3",
     "fs-extra": "11.3.3",
-    "jsdom": "^29.1.1",
+    "jsdom": "^30.0.0",
     "oslllo-svg-fixer": "^6.0.1",
     "svg-path-parser": "1.1.0"
   },
